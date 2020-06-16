@@ -4,39 +4,52 @@ import './Nav.scss';
 
 export const Nav = () => {
     return (
-      <nav role="navigation" aria-label="main navigation">
-        <p>
-          Navbar
-        </p>
-        <NavLink 
-          className="navbar_item" 
-          activeClassName="is_active" 
-          to="/about"
-          >
-          About
-        </NavLink>
-        <NavLink 
-          className="navbar_item" 
-          activeClassName="is_active" 
-          to="/portfolio"
-          >
-            portfolio
-        </NavLink>
-        <NavLink 
-          className="navbar_item" 
-          activeClassName="is_active" 
-          to="/services"
-          >
-            Services
-        </NavLink>
-        <NavLink 
-          className="navbar_item" 
-          activeClassName="is_active" 
-          to="/contact"
-          >
-            Contact
-        </NavLink>
+      <header>
+        <div className="header_logo" aria-label="business logo">
+          <h1>Ridge Creek</h1>
+          <h2>Plumbing | Gas</h2>
+        </div>
+        <nav role="navigation" aria-label="main navigation">
+          <ul className="all_navbar_links">
+            <li className="navbar_item">
+                <NavLink 
+                activeClassName="navlink-is_active" 
+                className="navlink_normal"
+                to="/about"
+                >
+                About
+                </NavLink>
+            </li>
+            <li className="navbar_item">      
+                <NavLink 
+                activeClassName="navlink-is_active" 
+                className="navlink_normal"
+                to="/portfolio"
+                >
+                    Portfolio
+                </NavLink>
+            </li>
+            <li className="navbar_item">       
+                <NavLink  
+                activeClassName="navlink-is_active" 
+                className="navlink_normal"
+                to="/services"
+                >
+                    Services
+                </NavLink>
+            </li>
+            <li className="navbar_item">      
+                <NavLink 
+                activeClassName="navlink-is_active" 
+                className="navlink_normal"
+                to="/contact"
+                >
+                    Contact
+                </NavLink>
+            </li>   
+        </ul>
       </nav>
+      </header>
     )
 };
 
