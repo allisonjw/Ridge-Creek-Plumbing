@@ -12,9 +12,9 @@ export const App = () => {
   return (
     <Switch>
       <Route exact path='/about' render={() => <> <Nav /> <About /> <Footer /> </>}/>
-      <Route path='/portfolio' render={() => <> <Nav /> <Portfolio/> <Footer /> </>}/>
+      <Route path='/portfolio' render={() => <> <Nav /> <Portfolio/> <Footer /> </>}/> 
       <Route path='/services' render={() => <> <Nav /> <Services/> <Footer /> </>}/>
-      <Route path='/contact' render={() => <> <Nav /> <Contact /> <Footer /> </>}/>
+      <Route path='/contact' render={() => <> <Nav /> <Contact /> <Footer /> </>}/> 
       <Redirect to='/about' />
     </Switch>
   );
