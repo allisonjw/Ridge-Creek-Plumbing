@@ -1,13 +1,42 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Nav.scss';
 
 export const Nav = () => {
     return (
-      <section className="section_navbar">
+      <nav role="navigation" aria-label="main navigation">
         <p>
           Navbar
         </p>
-      </section>
+        <NavLink 
+          className="navbar_item" 
+          activeClassName="is_active" 
+          to="/about"
+          >
+          About
+        </NavLink>
+        <NavLink 
+          className="navbar_item" 
+          activeClassName="is_active" 
+          to="/portfolio"
+          >
+            portfolio
+        </NavLink>
+        <NavLink 
+          className="navbar_item" 
+          activeClassName="is_active" 
+          to="/services"
+          >
+            Services
+        </NavLink>
+        <NavLink 
+          className="navbar_item" 
+          activeClassName="is_active" 
+          to="/contact"
+          >
+            Contact
+        </NavLink>
+      </nav>
     )
 };
 
