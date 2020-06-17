@@ -36,7 +36,8 @@ nav {
     }
 }
 
-a {
+a.navlink_normal,
+a.navlink-is_active {
     font-size: 1.5em;
     text-decoration: none;
     color: navy;
