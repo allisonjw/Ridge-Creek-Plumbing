@@ -1,0 +1,25 @@
+footer {
+    background-color: navy;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_logo-holder, 
+.footer_links-holder {
+    border-right: 1px solid white;
+}
+
+.logo-img {
+    width: 41%;
+    padding-right: 11%;
+}
+
+.footer_links-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
