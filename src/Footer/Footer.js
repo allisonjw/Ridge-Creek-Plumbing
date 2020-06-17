@@ -34,6 +34,7 @@ export const Footer = () => {
            </Link>  
           </div>
           <div className="footer_socialMedia-holder">
+            <p className="footer_quote">We put our customers first!</p>
             <a href="email"
               className="footer_socialMedia-img" 
               target="_blank" 
