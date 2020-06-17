@@ -1,3 +1,10 @@
+%flex_display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+}
+
 footer {
     background-color: navy;
     padding: 1%;
@@ -10,13 +17,14 @@ footer {
     width: 25%;
 }
 
+.footer_links-holder,
+.footer_socialMedia-holder {
+    @extend %flex_display;
+}
+
 .footer_links-holder {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     border-right: 1px solid white;
     border-left: 1px solid white;
-    padding: 1%;
 }
 
 .footer_link {
@@ -28,4 +36,9 @@ footer {
       &:hover {
         cursor: pointer;
       }
+}
+
+.footer_socialMedia-img {
+    color: white;
+    font-size: 2em;
 }

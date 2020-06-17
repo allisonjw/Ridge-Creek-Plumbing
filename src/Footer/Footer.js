@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaInstagram } from "react-icons/fa";
 import './Footer.scss';
 
 export const Footer = () => {
@@ -33,9 +34,30 @@ export const Footer = () => {
            </Link>  
           </div>
           <div className="footer_socialMedia-holder">
-            <p>
-                social media
-            </p>
+            <a href="email"
+              className="footer_socialMedia-img" 
+              target="_blank" 
+              rel="noopener noreferrer">
+              <FaFacebookSquare />
+            </a>
+            <a href="instagram" 
+              className="footer_socialMedia-img" 
+              target="_blank" 
+              rel="noopener noreferrer">
+              <FaInstagram />
+            </a>
+            <a href="linkedin"
+              className="footer_socialMedia-img"  
+              target="_blank" 
+              rel="noopener noreferrer">
+              <FaLinkedin />
+            </a> 
+            <a href="twitter"
+              className="footer_socialMedia-img"  
+              target="_blank" 
+              rel="noopener noreferrer">
+              <FaTwitterSquare />
+            </a> 
           </div>
       </footer>
     )
