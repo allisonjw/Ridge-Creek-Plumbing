@@ -6,8 +6,8 @@ export const Nav = () => {
     return (
       <header>
         <div className="header_logo" aria-label="business logo">
-          <h1>Ridge Creek</h1>
-          <h2>Plumbing | Gas</h2>
+          <h1>Ridgecreek</h1>
+          <h2 className="nav_h2">Plumbing | Gas</h2>
         </div>
         <nav role="navigation" aria-label="main navigation">
           <ul className="all_navbar_links">
