@@ -1,25 +1,31 @@
 footer {
     background-color: navy;
-    width: 100%;
     padding: 1%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-}
-
-.footer_logo-holder, 
-.footer_links-holder {
-    border-right: 1px solid white;
 }
 
 .logo-img {
-    width: 41%;
-    padding-right: 11%;
+    width: 25%;
 }
 
 .footer_links-holder {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 1%;
+}
+
+.footer_link {
+    color: white;
+    font-size: 1em;
+    padding: 1.5%;
+    width: 150px;
+    margin: 2%;
+      &:hover {
+        cursor: pointer;
+      }
 }

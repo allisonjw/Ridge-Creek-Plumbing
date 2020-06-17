@@ -5,33 +5,31 @@ import './Footer.scss';
 export const Footer = () => {
     return (
       <footer>
-          <div className="footer_logo-holder">
           <img className="logo-img" alt="ridge creek plumbing logo" src={require('../images/logo.png')}></img>
-          </div>
           <div className="footer_links-holder">
-           <Link to="/about">
-             <button className="footer_link"
-             >
+           <Link 
+             to="/about"       
+             className="footer_link"
+           >
                About
-             </button>
            </Link>  
-           <Link to="/portfolio">
-             <button className="footer_link"
-             >
+           <Link 
+             to="/portfolio"
+             className="footer_link"
+           >
                Portfolio
-             </button>
            </Link>  
-           <Link to="/services">
-             <button className="footer_link"
-             >
+           <Link 
+             to="/services"
+             className="footer_link"
+           >
                Services
-             </button>
            </Link>  
-           <Link to="/contact">
-             <button className="footer_link"
-             >
+           <Link 
+             to="/contact"
+             className="footer_link"
+           >
                Contact
-             </button>
            </Link>  
           </div>
           <div className="footer_socialMedia-holder">
