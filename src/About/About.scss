@@ -11,7 +11,7 @@ main {
 
 .about_banner {
     width: 100%;
-    height: 345px;
+    height: 80vh;
     margin: $image-margin auto;
     position: relative;
     border-bottom: 4px solid #000;
@@ -19,7 +19,7 @@ main {
     figure {
       position: absolute;
       width: 100%;
-      height: 345px;
+      height: 80vh;
       opacity: 0;
         &:nth-child(1) {
           animation: xfade 16s 12s infinite;
@@ -34,9 +34,12 @@ main {
           animation: xfade 16s 0s infinite;
         }
         .about_img {
-            width: 75%;
-            height: 345px;
-            margin-left: 13%;
+            width: 100%;
+            height: 80vh;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: 50% 50%;
+            background-repeat: no-repeat
         }
         figcaption {
           position: absolute;
@@ -50,7 +53,6 @@ main {
         }
     }
       &:hover figure figcaption {
-        margin-left: 13%;
         transition: opacity .5s;
         opacity: 1;
       }
