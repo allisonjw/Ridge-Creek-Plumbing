@@ -1,13 +1,31 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Nav.scss';
+import { IoIosFlame } from 'react-icons/io';
+import { AiFillTool } from 'react-icons/ai';
 
 export const Nav = () => {
     return (
       <header>
+          <div className="nav_banner" aria-label="banner for phone number and email">
+            <a 
+              href="tel:3604856605" 
+              className="nav_banner-link"
+              aria-label="phone number">
+              360.485.6605
+            </a>
+            <a    
+              href="mailto:Ridgecreekplumbingllc@gmail.com" 
+              target="_blank" 
+              className="nav_banner-link"
+              aria-label="email address"
+              rel="noopener noreferrer">
+              Ridgecreekplumbingllc@gmail.com
+            </a>
+          </div>
         <div className="header_logo" aria-label="business logo">
           <h1>Ridgecreek</h1>
-          <h2 className="nav_h2">Plumbing | Gas</h2>
+          <h2 className="nav_h2"><span className="nav_img"><AiFillTool/></span>Plumbing | Gas<span className="nav_img"><IoIosFlame/></span></h2>
         </div>
         <nav role="navigation" aria-label="main navigation">
           <ul className="all_navbar_links">
