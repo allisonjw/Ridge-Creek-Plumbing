@@ -1,3 +1,6 @@
+@import '../SCSS/variables';
+@import '../SCSS/media-queries';
+
 header {
     border-bottom: 4px solid #000;
     padding-bottom: 11%;
@@ -20,7 +23,7 @@ header {
 }
 
 .nav_banner {
-    background-color: #040444f2;
+    background-color: $main_color;
     height: 46px;
     display: flex;
     flex-direction: row;
@@ -31,7 +34,7 @@ header {
         font-weight: 700;
         text-decoration: none;
           &:hover {
-              color: orange
+              color: $accent_color;
           }
     }
 }
@@ -64,7 +67,7 @@ a.navlink-is_active {
     text-decoration: none;
     color: navy;
     &:hover {
-        color: orange;
+        color: $accent_color;;
     }
 }
 
