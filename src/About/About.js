@@ -9,7 +9,7 @@ import Fade from 'react-reveal/Fade';
 export const About = () => {
     return (
       <main>
-        <div className="about_banner" role="show slideshow" aria-label="slideshow of images">
+        <div className="about_banner" aria-label="slideshow of images">
           <figure>
             <div className="about_img" style={{ backgroundImage:`linear-gradient(rgba(255, 252, 252, 0.25), rgba(255, 254, 254, 0.15)), url(${PNW})` }}> 
             </div>
@@ -59,25 +59,31 @@ export const About = () => {
             </p>
         </section>
         </Fade>
+        <section className="section_about-testimonials">
+            <h2 className="about_h2">Testimonials</h2>
+            <ul class="slideTab">
+                <li><a className="testimonials_a" href="#slideContentChild-01">Page 01</a></li>
+                <li><a className="testimonials_a" href="#slideContentChild-02">Page 02</a></li>
+                <li><a className="testimonials_a" href="#slideContentChild-03">Page 03</a></li>
+                <li><a className="testimonials_a" href="#slideContentChild-04">Page 04</a></li>
+                <li><a className="testimonials_a" href="#slideContentChild-05">Page 05</a></li>
+                <li><a className="testimonials_a" href="#slideContentChild-06">Page 06</a></li>
+            </ul>
+            <ul className="about_testimonials-ul">
+              <li className="testimonials_li" id="slideContentChild-01">"The Laurana, mixed use building new construction, Downtown Olympia"</li>
+              <li className="testimonials_li" id="slideContentChild-02">"The Windjammer Hotel, bathroom remodels, Pacific Beach"</li>
+              <li className="testimonials_li" id="slideContentChild-03">"Les Schwab Tire Center, new construction, Centralia"</li>
+              <li className="testimonials_li" id="slideContentChild-04">"The Artisans Group, custom passive homes, South Sound Region"</li>
+              <li className="testimonials_li" id="slideContentChild-05">"BP ARCO, gas station new construction, South Sound Region"</li>
+              <li className="testimonials_li" id="slideContentChild-06">"7-Eleven, new construction, South Sound Region"</li>
+            </ul>
+        </section>
         <Fade bottom>
         <section className="section_about-mission">
             <h2 className="about_h2">Mission Statement</h2>
             <p className="about_paragraph">
               We are interested in learning about your plumbing and hydronic projects. Our goal is to be your reliable partner in projects of any scope and size. We look forward to working with you.
             </p>
-        </section>
-        </Fade>
-        <Fade bottom>
-        <section className="section_about-testimonials">
-            <h2 className="about_h2">Testimonials</h2>
-            <ul className="about_testimonials-ul">
-              <li className="testimonials_li">"The Laurana, mixed use building new construction, Downtown Olympia"</li>
-              <li className="testimonials_li">"The Windjammer Hotel, bathroom remodels, Pacific Beach"
-              "Les Schwab Tire Center, new construction, Centralia"</li>
-              <li className="testimonials_li">"The Artisans Group, custom passive homes, South Sound Region"</li>
-              <li className="testimonials_li">"BP ARCO, gas station new construction, South Sound Region"</li>
-              <li className="testimonials_li">"7-Eleven, new construction, South Sound Region"</li>
-            </ul>
         </section>
         </Fade>
       </main>
