@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.scss';
 import contactImage from '../images/boots_gloves.jpeg';
+import { FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaInstagram } from "react-icons/fa";
 
 export const Contact = () => {
     return (
@@ -42,6 +43,35 @@ export const Contact = () => {
               360.485.6605
             </a>
           </div>
+        </section>
+        <section className="contact_socialMedia">
+          <h3 className="social_h3">Contact Us On Social Media</h3>
+          <div className="contact_media-holder" aria-label="container for all social media links">
+            <a href="email"
+              className="contact_socialMedia-img" 
+              target="_blank" 
+              rel="noopener noreferrer">
+              <FaFacebookSquare />
+            </a>
+            <a href="instagram" 
+              className="contact_socialMedia-img" 
+              target="_blank" 
+              rel="noopener noreferrer">
+              <FaInstagram />
+            </a>
+            <a href="linkedin"
+              className="contact_socialMedia-img"  
+              target="_blank" 
+              rel="noopener noreferrer">
+              <FaLinkedin />
+            </a> 
+            <a href="twitter"
+              className="contact_socialMedia-img"  
+              target="_blank" 
+              rel="noopener noreferrer">
+              <FaTwitterSquare />
+            </a>
+          </div>   
         </section>
       </section>
     )
