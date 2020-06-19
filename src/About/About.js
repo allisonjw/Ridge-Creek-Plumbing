@@ -29,7 +29,7 @@ export const About = () => {
               </div>
             <figcaption>
                 We work rain or shine.
-                </figcaption>
+            </figcaption>
             </figure>
             <figure>
               <div className="about_img" style={{ backgroundImage:`linear-gradient(rgba(255, 252, 252, 0.25), rgba(255, 254, 254, 0.15)), url(${plumbing})` }}> 
@@ -41,7 +41,7 @@ export const About = () => {
         </div>
         <Fade bottom>
         <section className="section_about-why">
-            <h2 className="about_h2">Why Ridgecreek</h2>
+            <h2 className="about_h2-why">Why Ridgecreek</h2>
             <p className="about_paragraph">
               Whether working with a home owner to replace a plumbing appliance, a landlord to make tenant improvements, or a commercial contractor to install a building’s plumbing and hydronic system, our commitment to quality of service and workmanship is why we are trusted across the South Sound region.
 
