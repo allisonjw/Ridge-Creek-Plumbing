@@ -1,5 +1,8 @@
+@import '../SCSS/variables';
+@import '../SCSS/media-queries';
+
 footer {
-    background-color: #040444f2;
+    background-color: $main_color;
     padding: 1%;
     display: flex;
     flex-direction: row;
@@ -24,12 +27,12 @@ footer {
     flex-direction: column;
     justify-content: center;
     padding: 1% 9%;
-    border-right: 1px solid white;
-    border-left: 1px solid white;
+    border-right: 1px solid $text_color;
+    border-left: 1px solid $text_color;
 }
 
 .footer_link {
-    color: white;
+    color: $text_color;
     font-size: 1.5em;
     font-weight: 700;
     padding: 1.5%;
@@ -42,7 +45,7 @@ footer {
 }
 
 .footer_socialMedia-img {
-    color: white;
+    color: $text_color;
     font-size: 3em;
     margin: 0 1%;
     &:hover {
@@ -51,7 +54,7 @@ footer {
 }
 
 .footer_quote {
-    color: white;
+    color: $text_color;
     font-size: 2em;
     margin-bottom: 12%;
 }
