@@ -59,25 +59,6 @@ export const About = () => {
             </p>
         </section>
         </Fade>
-        <section className="section_about-testimonials">
-            <h2 className="about_h2">Testimonials</h2>
-            <ul class="slideTab">
-                <li><a className="testimonials_a" href="#slideContentChild-01">Page 01</a></li>
-                <li><a className="testimonials_a" href="#slideContentChild-02">Page 02</a></li>
-                <li><a className="testimonials_a" href="#slideContentChild-03">Page 03</a></li>
-                <li><a className="testimonials_a" href="#slideContentChild-04">Page 04</a></li>
-                <li><a className="testimonials_a" href="#slideContentChild-05">Page 05</a></li>
-                <li><a className="testimonials_a" href="#slideContentChild-06">Page 06</a></li>
-            </ul>
-            <ul className="about_testimonials-ul">
-              <li className="testimonials_li" id="slideContentChild-01">"The Laurana, mixed use building new construction, Downtown Olympia"</li>
-              <li className="testimonials_li" id="slideContentChild-02">"The Windjammer Hotel, bathroom remodels, Pacific Beach"</li>
-              <li className="testimonials_li" id="slideContentChild-03">"Les Schwab Tire Center, new construction, Centralia"</li>
-              <li className="testimonials_li" id="slideContentChild-04">"The Artisans Group, custom passive homes, South Sound Region"</li>
-              <li className="testimonials_li" id="slideContentChild-05">"BP ARCO, gas station new construction, South Sound Region"</li>
-              <li className="testimonials_li" id="slideContentChild-06">"7-Eleven, new construction, South Sound Region"</li>
-            </ul>
-        </section>
         <Fade bottom>
         <section className="section_about-mission">
             <h2 className="about_h2">Mission Statement</h2>
@@ -86,6 +67,41 @@ export const About = () => {
             </p>
         </section>
         </Fade>
+        <aside className="aside_testimonial">
+          <h2 className="about_h2">Testimonials</h2>
+          <p className="testimonials_description">Our focus is meeting your goals and providing the best customer service possible. See what some of our valued clients are saying about us.</p>
+        </aside>
+        <section className="section_about-testimonials">
+          <input id="go1" type="radio" name="select" className="input" checked/>
+          <input id="go2" type="radio" name="select" className="input"checked/>
+          <input id="go3" type="radio" name="select" className="input" checked/>
+          <input id="go4" type="radio" name="select" className="input"checked/>
+	     <figure className="about_testimonials">
+		   <figure className="testimonial" id="p1">
+			<p className="testimonial_content">"Garth and his team at RidgeCreek has been there for me multiple times for projects (and one homeowner caused emergency) and I’ve been incredibly impressed with their responsiveness and attention to detail. Although they work on large commercial projects, they treated mine like it was just as important.  I would highly recommend them for any plumbing project."<br></br>~ Chris Olympia, WA</p>
+			<label for="go2" className="btn btn-inside next">›</label>
+		  </figure>
+		  <figure className="testimonial" id="p2">
+			<p className="testimonial_content">"lorem ipsum testimonial two"</p>
+			<label for="go1" className="btn btn-inside prev">‹</label>
+			<label for="go3" className="btn btn-inside next">›</label>
+		  </figure>
+		  <figure className="testimonial" id="p3">
+			<p className="testimonial_content">"Lorem ipsum testimonial 3"</p>
+			<label for="go2" className="btn btn-inside prev">‹</label>
+			<label for="go4" className="btn btn-inside next">›</label>
+		  </figure>
+          <figure className="testimonial" id="p4">
+			<p className="testimonial_content">"lorem ipsum testimonial 4"</p>
+			<label for="go3" className="btn btn-inside prev">‹</label>
+			<label for="go1" className="btn btn-inside next">«</label>
+		  </figure>
+	    </figure>
+          <label for="go1" className="btn btn-outside go1">1</label>
+          <label for="go2" className="btn btn-outside go2">2</label>
+          <label for="go3" className="btn btn-outside go3">3</label>
+          <label for="go4" className="btn btn-outside go4">4</label>
+        </section>
       </main>
     )
 };

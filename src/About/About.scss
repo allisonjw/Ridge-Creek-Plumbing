@@ -88,82 +88,153 @@ main {
 }
 
 
-.about_paragraph {
+.about_paragraph,
+.testimonials_description {
     font-size: 1.5em;
     text-align: center;
 }
 
-// .about_testimonials-ul {
-//     list-style: none;
-//     display: grid;
-//     grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
-//     grid-template-rows: auto;
-//     grid-gap: 3%;
-//     margin-bottom: 3%;
-// }
-
-// .testimonials_li {
-//     margin-bottom: 3%;
-//     font-size: 1.5em;
-//     background-color: #80808069;
-//     border-radius: 3px;
-//     box-shadow: 8px 8px 9px #000000a8;
-//     padding: 3%;
-//     min-height: 145px;
-// }
-
-.testimonials_li {
-    vertical-align: bottom;
-}
-    
-.testimonials_a {
-    text-decoration: none;
-}
-    
-.slideTab {
-    display: flex;
-    width: 100%;
-    background-color: grey;
-    justify-content: center;
-    list-style: none;
+figure {
+	margin: 0;
+	padding: 0;
 }
 
-.slideTab li {
-    height: 2em;
-    text-decoration: none;
-    margin: 1% 1% 0 0;
+.btn {
+	background: orange;
 }
-    
-.about_testimonials-ul {
-    text-decoration: none;
-    overflow: hidden ;
-    position: absolute ;
-    background: $accent_color;
-    width: 100% ;
-    height: 300px ;
+
+.testimonial_content {
+	font-size: 1.4em;
+    margin-top: 5%;
+    line-height: 1.3;
+    color: $main_color;
+    font-weight: 700;
 }
-    
-[id^=slideContentChild-] {
-    float: left ;
-    width: 100%;
-    height: 100% ;
-    overflow: hidden ;
-    transition: .2s ease-in 0;
-    -webkit-transition: .2s ease-in 0;
+
+.aside_testimonial {
+    float: right;
+    position: relative;
+    right: 14%;
+    margin-top: 6%;
+    width: 400px;
 }
-    
-[id^=slideContentChild-] li {
-    display: block ;
-    margin: 0 auto ;
-    font-size: 1.5em;
-    background-color: grey;
+
+.section_about-testimonials {
+	overflow: hidden;
+	width: 440px;
+	left: 12em;
+    padding: 1em 0;
+    position: relative;
+    text-align: center;
+    border-radius: 3px;
+	box-shadow: inset 0 0 5em 0 #000;
 }
-    
-#slideContentChild-01:target,
-#slideContentChild-02:target,
-#slideContentChild-03:target,
-#slideContentChild-04:target,
-#slideContentChild-05:target,
-#slideContentChild-06:target {
-    width: 100% ;
+
+.testimonials_description {
+    margin-top: 5%;
+}
+
+.about_testimonials {
+	width: 1760px;
+	height: 400px;
+	position: relative;
+}
+
+.testimonial {
+	float:left;
+	width: 400px;
+	position: relative;
+	padding: 0 20px;
+    height: 100%
+}
+
+.input {
+	position: absolute;
+	clip:rect(0,0,0,0);
+}
+
+.btn {
+	padding:0.3em;
+	cursor: pointer;
+	text-align: center;
+}
+
+.btn:hover {
+	color:#fff;
+	text-shadow:0 0 0.1em #eee;
+}
+
+.btn-inside {
+	position: absolute;
+	box-shadow: 0 0 0.2em #000;
+	border-radius: 50%;
+	font-size:2em;
+	font-family: arial;
+	height: 1em;
+	width: 1em;
+	line-height: 0.9;
+	top:180px;
+}
+
+.btn-outside {
+	padding:0 1em;
+	margin-top:1em;
+}
+
+.next {
+	right:-0.6em;
+}
+
+.prev {
+	left:-0.6em;
+}
+
+.btn-inside {
+	display:none;
+}
+
+#go1:checked ~ .about_testimonials #p1 .btn-inside,
+#go2:checked ~ .about_testimonials #p2 .btn-inside,
+#go3:checked ~ .about_testimonials #p3 .btn-inside,
+#go4:checked ~ .about_testimonials #p4 .btn-inside {
+	display:inline-block;
+}
+
+#go1:checked ~ .go1,
+#go2:checked ~ .go2,
+#go3:checked ~ .go3,
+#go4:checked ~ .go4 {
+	box-shadow: inset 0 0 1em rgba(255,255,255,0.5);
+}
+
+/* animations */
+.btn,
+.about_testimonials {
+	-webkit-transition:0.4s;
+	-moz-transition:0.4s;
+	transition:0.4s;
+}
+
+#go1:checked ~ .about_testimonials {
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+#go2:checked ~ .about_testimonials {
+	-webkit-transform: translate3d(-440px,0,0);
+	-moz-transform: translate3d(-440px,0,0);
+	transform: translate3d(-440px,0,0);
+}
+
+#go3:checked ~ .about_testimonials {
+	-webkit-transform: translate3d(-880px,0,0);
+	-moz-transform: translate3d(-880px,0,0);
+	transform: translate3d(-880px,0,0);
+}
+
+#go4:checked ~ .about_testimonials {
+	-webkit-transform: translate3d(-1320px,0,0);
+	-moz-transform: translate3d(-1320px,0,0);
+	transform: translate3d(-1320px,0,0);
 }
