@@ -67,13 +67,15 @@ export const About = () => {
             </p>
         </section>
         </Fade>
-        <h2 className="about_h2">Testimonials</h2>
-        <p className="testimonials_description">See what some of our valued clients are saying about us</p>
+        <aside className="aside_testimonial">
+          <h2 className="about_h2">Testimonials</h2>
+          <p className="testimonials_description">Our focus is meeting your goals and providing the best customer service possible. See what some of our valued clients are saying about us.</p>
+        </aside>
         <section className="section_about-testimonials">
           <input id="go1" type="radio" name="select" className="input" checked/>
-          <input id="go2" type="radio" name="select" className="input"/>
-          <input id="go3" type="radio" name="select" className="input"/>
-          <input id="go4" type="radio" name="select" className="input"/>
+          <input id="go2" type="radio" name="select" className="input"checked/>
+          <input id="go3" type="radio" name="select" className="input" checked/>
+          <input id="go4" type="radio" name="select" className="input"checked/>
 	     <figure className="about_testimonials">
 		   <figure className="testimonial" id="p1">
 			<p className="testimonial_content">"Garth and his team at RidgeCreek has been there for me multiple times for projects (and one homeowner caused emergency) and I’ve been incredibly impressed with their responsiveness and attention to detail. Although they work on large commercial projects, they treated mine like it was just as important.  I would highly recommend them for any plumbing project."<br></br>~ Chris Olympia, WA</p>
