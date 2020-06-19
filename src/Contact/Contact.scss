@@ -25,3 +25,52 @@
         left: 14%;
     }
 }
+
+.contact_body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.location_div,
+.email_div,
+.phone_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location_div,
+.email_div {
+    border-right: 1px solid $main_color;
+    padding: 10px 0px 86px 0px;
+    padding: 2% 4%;
+}
+
+.contact_h3 {
+    color: $accent_color;
+    font-size: 1.7em;
+    margin-bottom: 12px;
+    letter-spacing: 2px;;
+}
+
+.contact_link {
+    text-decoration: none;
+    transition: all .2s ease;
+    font-size: 1.4em;
+    color: $main_color;
+    font-weight: 500;
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}
+
+.contact_address-paragraph {
+    font-size: 1.4em;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: 500;
+    color: $main_color;
+}
