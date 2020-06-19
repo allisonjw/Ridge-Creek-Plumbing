@@ -10,12 +10,10 @@ main {
 }
 
 .about_banner {
-    width: 100%;
+    width: 90%;
     height: 80vh;
     margin: $image-margin auto;
     position: relative;
-    border-bottom: 4px solid #000;
-    padding-bottom: 1%;
     figure {
       position: absolute;
       width: 100%;
@@ -39,7 +37,7 @@ main {
             background-size: cover;
             background-attachment: fixed;
             background-position: 50% 50%;
-            background-repeat: no-repeat
+            background-repeat: no-repeat;
         }
         figcaption {
           position: absolute;
@@ -78,6 +76,8 @@ main {
     text-decoration: underline;
     text-align: center;
     margin-bottom: 1%;
+    border-top: 4px solid #000;
+    padding-top: 2%;
 }
 
 .about_paragraph {
