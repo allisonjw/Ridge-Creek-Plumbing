@@ -1,10 +1,17 @@
 * {
   padding: 0;
   margin: 0;
+  animation: fade-in 1s ease-out both 0.3s;
 }
 
 html {
   margin: 0 1%;
   color: #333;
   background: #cdc url("https://i.imgur.com/LtdNdBp.jpg") repeat top left;
+  animation: fade-in 1s ease-out both 0.3s;
+}
+
+@keyframes fade-in {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
 }
