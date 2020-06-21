@@ -41,7 +41,7 @@ export const About = () => {
         </div>
         <Fade bottom>
         <section className="section_about-why">
-            <h2 className="about_h2-why">Why Ridgecreek</h2>
+            <h2 className="about_h2">Why Ridgecreek</h2>
             <hr className="about_h2-underline"></hr>
             <p className="about_paragraph">
               Whether working with a home owner to replace a plumbing appliance, a landlord to make tenant improvements, or a commercial contractor to install a building’s plumbing and hydronic system, our commitment to quality of service and workmanship is why we are trusted across the South Sound region.
