@@ -12,7 +12,40 @@ export const Portfolio = () => {
               Portfolio
             </h2>
           </div>
-        </div>      
+        </div>
+        <ul className="portfolio_navigation-bar">
+          <li 
+             className="portfolio_nav-li"
+             activeClassName="portfolio_link-active">
+              ALL
+          </li>
+          <li 
+            activeClassName="portfolio_link-active" className="portfolio_nav-li">
+              RESIDENTIAL
+          </li>
+          <li 
+            activeClassName="portfolio_link-active" className="portfolio_nav-li">
+              COMMERCIAL
+          </li>
+          <li 
+            activeClassName="portfolio_link-active" className="portfolio_nav-li">
+              MIXED-USE
+          </li>
+          <li 
+            activeClassName="portfolio_link-active" className="portfolio_nav-li">
+              HOSPITALITY
+          </li>
+        </ul> 
+        <section className="portfolio_main">
+          <article className="project"></article>
+          <article className="project"></article>
+          <article className="project"></article>
+          <article className="project"></article>
+          <article className="project"></article>
+          <article className="project"></article>
+          <article className="project"></article>
+          <article className="project"></article>
+        </section>     
       </section>
     )
 };
