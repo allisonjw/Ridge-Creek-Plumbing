@@ -77,16 +77,21 @@ main {
 .about_h2,
 .about_h2-why {
     font-size: 2.2em;
-    text-decoration: underline;
     text-align: center;
     margin-bottom: 1%;
+}
+
+.about_h2-underline {
+    background-color: orange;
+    width: 25%;
+    margin: 0 37.5% 2%;
+    height: 1%;
 }
 
 .about_h2-why {
     border-top: 4px solid #000;
     padding-top: 2%;
 }
-
 
 .about_paragraph,
 .testimonials_description {
@@ -121,7 +126,7 @@ figure {
 
 .section_about-testimonials {
 	overflow: hidden;
-	width: 440px;
+	width: 460px;
 	left: 12em;
     padding: 1em 0;
     position: relative;
@@ -182,7 +187,7 @@ figure {
 }
 
 .next {
-	right:-0.6em;
+	left: 13em;
 }
 
 .prev {
