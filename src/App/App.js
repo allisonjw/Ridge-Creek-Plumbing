@@ -13,9 +13,9 @@ export const App = () => {
   return (
     <Switch>
       <Route exact path='/about' render={() => <> 
-      <Fade bottom>
+      {/* <Fade bottom> */}
         <Nav /> 
-      </Fade>
+      {/* </Fade> */}
       <Fade left>  
         <About />
       </Fade>   
