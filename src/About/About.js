@@ -39,7 +39,7 @@ export const About = () => {
             </figcaption>
             </figure>
         </div>
-        <Fade bottom>
+        {/* <Fade bottom> */}
         <section className="section_about-why">
             <h2 className="about_h2">Why Ridgecreek</h2>
             <hr className="about_h2-underline"></hr>
@@ -105,7 +105,7 @@ export const About = () => {
           <label for="go3" className="btn btn-outside go3">3</label>
           <label for="go4" className="btn btn-outside go4">4</label>
         </section>
-        </Fade>
+        {/* </Fade> */}
       </main>
     )
 };
