@@ -65,17 +65,27 @@ export const allProjects = [
         image: '../images/Laurana_Article_Image.jpg',
     },
     {
+        //fake mixed-use
         id: 10,
+        project_type: 'mixed-use',
+        name: 'The XYZ',
+        location: 'Olympia',
+        image: '../images/xyz.jpg',
+    },
+
+    {
+        id: 11,
         project_type: 'hospitality',
         name: 'The Windjammer Hotel',
         location: 'Pacific Beach',
         image: '../images/windjammer.jpg',
     },
     {
-        id: 10,
+        //fake hospitality
+        id: 12,
         project_type: 'hospitality',
         name: 'XYZ Hotel',
         location: 'Seattle',
         image: '../images/seattle.jpeg',
-    },
+    }
 ];
