@@ -2,7 +2,7 @@
 @import '../SCSS/media-queries';
 
 header {
-    border-bottom: 4px solid #000;
+    border-bottom: 2px solid #000;
     padding-bottom: 11%;
 }
 
@@ -12,6 +12,7 @@ header {
     width: 20%;
     h1 {
         font-size: 3.5em;
+        text-shadow: 3px 3px 5px #101010ab;
     }
     .nav_h2 {
         text-align: center;
@@ -27,6 +28,7 @@ header {
     height: 46px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     .nav_banner-link {
         color: white;
@@ -65,7 +67,7 @@ a.navlink-is_active {
     font-size: 1.5em;
     font-weight: 700;
     text-decoration: none;
-    color: navy;
+    color: $main_color;
     &:hover {
         color: $accent_color;;
     }
