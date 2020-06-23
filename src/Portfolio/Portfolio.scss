@@ -38,23 +38,31 @@
 }
 
 
-.portfolio_nav-li,
-.portfolio_link-active {
+.portfolio_nav-li {
     display: inline-block;
     letter-spacing: 0.1em;
     margin: 0 15px;
     transition: all 0.3s ease 0s;
     &:hover {
         cursor: pointer;
+    }
+}
+
+a.portfolio_link-normal,
+a.portfolio_link-is_active {
+    color: $main_color;
+    text-decoration: none;
+    &:hover {
         border-bottom: 1px solid $accent_color;
     }
 }
 
-.portfolio_nav-li {
-    background-color: none;
+a.portfolio_link-normal {
+    border: none;
 }
 
-.portfolio_link-active {
+a.portfolio_link-is_active {
+    color: $accent_color;
     background-color: $main_color;
     border-bottom: 1px solid pink;
 }

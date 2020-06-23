@@ -46,19 +46,21 @@ main {
         }
         figcaption {
           position: absolute;
-          top: 0;
+          bottom: 0;
+          visibility: hidden;
           color: $text_color;
           background: rgba(0, 0, 0, 0.3);
           font-size: .8rem;
           padding: 5px 10px;
           opacity: 0;
           transition: opacity .5s;
+          &:hover figure figcaption {
+              visibility: visible;
+            transition: opacity .5s;
+            opacity: 1;
+          }
         }
     }
-      &:hover figure figcaption {
-        transition: opacity .5s;
-        opacity: 1;
-      }
 }
 
 @keyframes xfade{
@@ -108,9 +110,10 @@ figure {
 .testimonial_content {
 	font-size: 1.4em;
     margin-top: 5%;
-    line-height: 1.3;
+    line-height: 1.2;
     color: $main_color;
     font-weight: 700;
+    padding: 0 5% 0 5%;
 }
 
 .aside_testimonial {
@@ -129,7 +132,8 @@ figure {
     position: relative;
     text-align: center;
     border-radius: 3px;
-	box-shadow: inset 0 0 5em 0 #000;
+	box-shadow: inset 0 0 1.5em 0 #000;
+    background-color: #ffa5009e;
 }
 
 .testimonials_description {
@@ -158,13 +162,13 @@ figure {
 .btn {
 	padding:0.3em;
 	cursor: pointer;
-	text-align: center;
+    text-align: center;
+    &:hover {
+        color:#fff;
+        text-shadow:0 0 0.1em #eee;
+    }
 }
 
-.btn:hover {
-	color:#fff;
-	text-shadow:0 0 0.1em #eee;
-}
 
 .btn-inside {
 	position: absolute;
@@ -212,9 +216,9 @@ figure {
 /* animations */
 .btn,
 .about_testimonials {
-	-webkit-transition:0.4s;
-	-moz-transition:0.4s;
-	transition:0.4s;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	transition: 0.4s;
 }
 
 #go1:checked ~ .about_testimonials {
