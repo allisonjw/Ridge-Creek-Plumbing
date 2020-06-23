@@ -2,10 +2,12 @@ import React from 'react';
 import './Contact.scss';
 import contactImage from '../images/boots_gloves.jpeg';
 import { FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaInstagram } from "react-icons/fa";
+import Fade from 'react-reveal/Fade';
 
 export const Contact = () => {
     return (
       <section className="section_contact">
+        <Fade left>
         <div className="contact_banner" 
         aria-label="notification of contact page">
           <div className="contact_img" aria-label="picture of hard hat and boots" style={{ backgroundImage:`linear-gradient(rgba(255, 252, 252, 0.25), rgba(255, 254, 254, 0.15)), url(${contactImage})` }}>
@@ -14,6 +16,7 @@ export const Contact = () => {
             </h2>
           </div>
         </div>
+        </Fade>
         <section className="contact_body">
           <div className="location_div" aria-label="container for location information">
             <h3 className="contact_h3">LOCATION</h3>
