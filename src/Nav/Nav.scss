@@ -2,7 +2,11 @@
 @import '../SCSS/media-queries';
 
 header {
-    border-bottom: 2px solid #000;
+    -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,.3);
+    box-shadow: 0 0 10px 3px rgba(0,0,0,.3);
+    font-size: 1rem;
+    -webkit-transition: all .8s linear;
+    transition: all .8s linear;
     padding-bottom: 11%;
 }
 
