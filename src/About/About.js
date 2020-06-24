@@ -82,28 +82,28 @@ export const About = () => {
 	     <figure className="about_testimonials">
 		   <figure className="testimonial" id="p1">
 			<p className="testimonial_content">"Garth and his team at RidgeCreek has been there for me multiple times for projects (and one homeowner caused emergency) and I’ve been incredibly impressed with their responsiveness and attention to detail. Although they work on large commercial projects, they treated mine like it was just as important.  I would highly recommend them for any plumbing project."<br></br>~ Chris Olympia, WA</p>
-			<label for="go2" className="btn btn-inside next">›</label>
+			<label htmlFor="go2" className="btn btn-inside next">›</label>
 		  </figure>
 		  <figure className="testimonial" id="p2">
 			<p className="testimonial_content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."<br></br>~ Bill Tacoma, WA</p>
-			<label for="go1" className="btn btn-inside prev">‹</label>
-			<label for="go3" className="btn btn-inside next">›</label>
+			<label htmlFor="go1" className="btn btn-inside prev">‹</label>
+			<label htmlFor="go3" className="btn btn-inside next">›</label>
 		  </figure>
 		  <figure className="testimonial" id="p3">
 			<p className="testimonial_content">"Malesuada pellentesque elit eget gravida cum sociis natoque. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Velit egestas dui id ornare. Tristique magna sit amet purus gravida quis blandit. Praesent semper feugiat nibh sed pulvinar. Turpis massa tincidunt dui ut ornare lectus sit amet."<br></br>~ John Seattle, WA</p>
-			<label for="go2" className="btn btn-inside prev">‹</label>
-			<label for="go4" className="btn btn-inside next">›</label>
+			<label htmlFor="go2" className="btn btn-inside prev">‹</label>
+			<label htmlFor="go4" className="btn btn-inside next">›</label>
 		  </figure>
           <figure className="testimonial" id="p4">
 			<p className="testimonial_content">"Pellentesque habitant morbi tristique senectus et netus. Faucibus a pellentesque sit amet porttitor eget. Sit amet volutpat consequat mauris nunc congue nisi. Augue lacus viverra vitae congue eu consequat. Libero justo laoreet sit amet cursus sit."<br></br>~ Mary Olympia, WA</p>
-			<label for="go3" className="btn btn-inside prev">‹</label>
-			<label for="go1" className="btn btn-inside next">«</label>
+			<label htmlFor="go3" className="btn btn-inside prev">‹</label>
+			<label htmlFor="go1" className="btn btn-inside next">«</label>
 		  </figure>
 	    </figure>
-          <label for="go1" className="btn btn-outside go1">1</label>
-          <label for="go2" className="btn btn-outside go2">2</label>
-          <label for="go3" className="btn btn-outside go3">3</label>
-          <label for="go4" className="btn btn-outside go4">4</label>
+          <label htmlFor="go1" className="btn btn-outside go1">1</label>
+          <label htmlFor="go2" className="btn btn-outside go2">2</label>
+          <label htmlFor="go3" className="btn btn-outside go3">3</label>
+          <label htmlFor="go4" className="btn btn-outside go4">4</label>
         </section>
         {/* </Fade> */}
       </main>
