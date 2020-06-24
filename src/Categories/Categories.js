@@ -10,7 +10,7 @@ export const Categories = ({ pickedType, type, allProjectsArray }) => {
     const allCategoriesArrayList = allProjectsArray.map(project => <Projects key={project.id} {...project} />);
     return (
       <>
-        <section className="portfolio_main">
+        <section>
           <Portfolio allCats={allCategoriesArrayList} />
         </section>
       </>
@@ -19,7 +19,7 @@ export const Categories = ({ pickedType, type, allProjectsArray }) => {
     const projectList = pickedType.map(project => <Projects key={project.id} {...project} />);
       return (
         <>
-          <section className="portfolio_main">
+          <section>
             <Portfolio projectList={projectList} />
           </section>
         </>
