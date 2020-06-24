@@ -18,6 +18,9 @@ export const Portfolio = ({ allCats, projectList }) => {
             </div>
           </div>
           </Fade>
+          <p className="portfolio_description-paragraph">
+            Whether working with a home owner to replace a plumbing appliance, a landlord to make tenant improvements, or a commercial contractor to install a building’s plumbing and hydronic system, our commitment to quality of service and workmanship is why we are trusted across the South Sound region. Select a category below to see more information.
+          </p>
           <ul className="portfolio_navigation-bar">
             <li 
                className="portfolio_nav-li">
