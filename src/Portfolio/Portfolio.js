@@ -5,7 +5,7 @@ import portfolioImage from '../images/Laurana_Article_Image.jpg';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 
-export const Portfolio = () => {
+export const Portfolio = ({ allCats, projectList }) => {
 
     return (
         <section className="section_portfolio">
@@ -72,7 +72,8 @@ export const Portfolio = () => {
             </li>
           </ul> 
           <section className="portfolio_main">
-            <Projects />
+            {allCats}
+            {projectList}
           </section>     
         </section>
     )

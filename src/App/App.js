@@ -23,9 +23,10 @@ export const App = () => {
         <About />
       </Fade>   
       <Footer /> </>}/>
-      <Route path='/portfolio' render={() => <> <Nav /> <Portfolio/> <Footer /> </>}/> 
+      <Route path='/portfolio' render={() => <> <Nav /> <Portfolio/> <Projects/> <Footer /> </>}/> 
       <Route path='./container' render={() => <>  <Container /> </>} />
-      <Route path='./categories' render={() => <>  <Categories /> </>} />
+        <Route path='./categories' render={() => <>  <Categories /> </>} />
+        <Route path='./products' render={() => <> <Nav /> <Projects/> <Footer /> </>}/>
       <Route path='/services' render={() => <> <Nav /> <Services/> <Footer /> </>}/>
       <Route path='/contact' render={() => <> <Nav /> <Contact /> <Footer /> </>}/> 
       {/* <Redirect to='/about' /> */}
