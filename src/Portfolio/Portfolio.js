@@ -6,6 +6,7 @@ import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 
 export const Portfolio = () => {
+
     return (
         <section className="section_portfolio">
           <Fade left>
@@ -22,18 +23,19 @@ export const Portfolio = () => {
             <li 
                className="portfolio_nav-li">
                 <Link 
-                  type="submit"
-                  activeclassname="portfolio_link-is_active"
+                  // type="submit"
+                  activeStyle="portfolio_link-is_active"
                   className="portfolio_link-normal"
-                  to="projects/all">
+                  to={"/all"}>
                     ALL
                 </Link>
             </li>
             <li 
               className="portfolio_nav-li">
                 <Link
-                  type="submit"
-                  activeclassname="portfolio_link-is_active"className="portfolio_link-normal"
+                  // type="submit"
+                  // activeStyle="portfolio_link-is_active"
+                  className="portfolio_link-normal"
                   to="projects/residential">
                     RESIDENTIAL
                 </Link>
@@ -41,8 +43,9 @@ export const Portfolio = () => {
             <li 
               className="portfolio_nav-li">
                 <Link
-                  type="submit"
-                  activeclassname="portfolio_link-is_active"className="portfolio_link-normal"
+                  // type="submit"
+                  // activeStyle="portfolio_link-is_active"
+                  className="portfolio_link-normal"
                   to="projects/commercial">
                     COMMERCIAL
                 </Link>
@@ -50,17 +53,19 @@ export const Portfolio = () => {
             <li 
                className="portfolio_nav-li">
                 <Link
-                  type="submit"
-                  activeclassname="portfolio_link-is_active"className="portfolio_link-normal"
-                  to="projects/mixed-use">
+                  // type="submit"
+                  // activeStyle="portfolio_link-is_active"
+                  className="portfolio_link-normal"
+                  to="projects/mixedUse">
                     MIXED USE
                 </Link>
             </li>
             <li 
                className="portfolio_nav-li">
                 <Link
-                  type="submit"
-                  activeclassname="portfolio_link-is_active"className="portfolio_link-normal"
+                  // type="submit"
+                  // activeStyle="portfolio_link-is_active"
+                  className="portfolio_link-normal"
                   to="projects/hospitality">
                     HOSPITALITY
                 </Link>
