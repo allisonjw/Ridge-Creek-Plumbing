@@ -22,41 +22,46 @@ export const Portfolio = () => {
             <li 
                className="portfolio_nav-li">
                 <Link 
-                  activeClassName="portfolio_link-is_active"
+                  type="submit"
+                  activeclassname="portfolio_link-is_active"
                   className="portfolio_link-normal"
-                  to="#">
+                  to="projects/all">
                     ALL
                 </Link>
             </li>
             <li 
               className="portfolio_nav-li">
                 <Link
-                  activeClassName="portfolio_link-is_active"className="portfolio_link-normal"
-                  to="#">
+                  type="submit"
+                  activeclassname="portfolio_link-is_active"className="portfolio_link-normal"
+                  to="projects/residential">
                     RESIDENTIAL
                 </Link>
             </li>
             <li 
               className="portfolio_nav-li">
                 <Link
-                  activeClassName="portfolio_link-is_active"className="portfolio_link-normal"
-                  to="#">
+                  type="submit"
+                  activeclassname="portfolio_link-is_active"className="portfolio_link-normal"
+                  to="projects/commercial">
                     COMMERCIAL
                 </Link>
             </li>
             <li 
                className="portfolio_nav-li">
                 <Link
-                  activeClassName="portfolio_link-is_active"className="portfolio_link-normal"
-                  to="#">
+                  type="submit"
+                  activeclassname="portfolio_link-is_active"className="portfolio_link-normal"
+                  to="projects/mixed-use">
                     MIXED USE
                 </Link>
             </li>
             <li 
                className="portfolio_nav-li">
                 <Link
-                  activeClassName="portfolio_link-is_active"className="portfolio_link-normal"
-                  to="#">
+                  type="submit"
+                  activeclassname="portfolio_link-is_active"className="portfolio_link-normal"
+                  to="projects/hospitality">
                     HOSPITALITY
                 </Link>
             </li>
