@@ -1,6 +1,5 @@
 import React from 'react';
 import './Portfolio.scss';
-import { Projects } from '../Projects/Projects';
 import portfolioImage from '../images/Laurana_Article_Image.jpg';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
@@ -23,7 +22,6 @@ export const Portfolio = ({ allCats, projectList }) => {
             <li 
                className="portfolio_nav-li">
                 <Link 
-                  // type="submit"
                   activeStyle="portfolio_link-is_active"
                   className="portfolio_link-normal"
                   to={"/all"}>
@@ -33,40 +31,36 @@ export const Portfolio = ({ allCats, projectList }) => {
             <li 
               className="portfolio_nav-li">
                 <Link
-                  // type="submit"
-                  // activeStyle="portfolio_link-is_active"
+                  activeStyle="portfolio_link-is_active"
                   className="portfolio_link-normal"
-                  to="projects/residential">
+                  to="/projects/residential">
                     RESIDENTIAL
                 </Link>
             </li>
             <li 
               className="portfolio_nav-li">
                 <Link
-                  // type="submit"
-                  // activeStyle="portfolio_link-is_active"
+                  activeStyle="portfolio_link-is_active"
                   className="portfolio_link-normal"
-                  to="projects/commercial">
+                  to="/projects/commercial">
                     COMMERCIAL
                 </Link>
             </li>
             <li 
                className="portfolio_nav-li">
                 <Link
-                  // type="submit"
-                  // activeStyle="portfolio_link-is_active"
+                  activeStyle="portfolio_link-is_active"
                   className="portfolio_link-normal"
-                  to="projects/mixedUse">
+                  to="/projects/mixedUse">
                     MIXED USE
                 </Link>
             </li>
             <li 
                className="portfolio_nav-li">
                 <Link
-                  // type="submit"
-                  // activeStyle="portfolio_link-is_active"
+                  activeStyle="portfolio_link-is_active"
                   className="portfolio_link-normal"
-                  to="projects/hospitality">
+                  to="/projects/hospitality">
                     HOSPITALITY
                 </Link>
             </li>

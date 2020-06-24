@@ -31,11 +31,10 @@
 .portfolio_navigation-bar {
     list-style: none;
     padding: 25px 0px;
-    // text-align: left;
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    text-align: center;
 }
 
 
@@ -43,6 +42,8 @@
     display: inline-block;
     letter-spacing: 0.1em;
     margin: 0 15px;
+    font-size: 1.4em;
+    font-weight: 600;
     transition: all 0.3s ease 0s;
     &:hover {
         cursor: pointer;
@@ -69,8 +70,7 @@ a.portfolio_link-is_active {
 }
 
 .portfolio_main {
-    display: table;
-    width: 90%;
-    margin-left: auto;
+    display: inline-flex;
     margin-right: auto;
+    flex-wrap: wrap;
 }
