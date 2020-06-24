@@ -72,6 +72,7 @@ export const About = () => {
         {/* </Fade> */}
         <aside className="aside_testimonial">
           <h2 className="about_h2">Testimonials</h2>
+          <hr className="about_testimonial-underline"></hr>
           <p className="testimonials_description">Our focus is meeting your goals and providing the best customer service possible. See what some of our valued clients are saying about us.</p>
         </aside>
         <section className="section_about-testimonials">

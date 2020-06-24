@@ -73,8 +73,7 @@ main {
 //temp size for all sections
 .section_about-why,
 .section_about-history,
-.section_about-mission,
-.section_about-testimonials {
+.section_about-mission {
     height: 400px;
 }
 
@@ -144,6 +143,14 @@ figure {
 	width: 1760px;
 	height: 400px;
 	position: relative;
+}
+
+.about_testimonial-underline {
+    background-color: orange;
+    width: 60%;
+    margin: 0 19.5% 2%;
+    height: 2.5%;
+    position: absolute;
 }
 
 .testimonial {
