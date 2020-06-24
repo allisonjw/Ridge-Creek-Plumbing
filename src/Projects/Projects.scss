@@ -48,7 +48,8 @@
     color: #fff;
 }
 
-.project_reveal-h4 {
+.project_reveal-h4-name,
+.project_reveal-h4-location{
     font-size: 1.4em;
     color: white;
     position: absolute;
@@ -57,3 +58,7 @@
     text-align: center;
     padding: 3%;
 }
+.project_reveal-h4-location {
+    top: 35px;
+}
+
