@@ -1,17 +1,20 @@
 import React from 'react';
 import './Container.scss';
-import { Projects } from '../Projects/Projects';
+import Portfolio from '../Portfolio/Portfolio';
 import { allProjects } from '../allData/allData';
 import { Route } from 'react-router-dom';
 
 export const Container = () => {
-    const newProjectArray = [...allProjects.commercial, ...allProjects.residential, ...allProjects.mixedUse, ...allProjects.hospitality]
-    console.log('allProducts', newProjectArray)
-    console.log(Object.keys(allProjects))
-  
+    const allProjectsArray = [...allProjects.commercial, ...allProjects.residential, ...allProjects.mixedUse, ...allProjects.hospitality];
+    
     return (
-
+        <>
+          <Route exact path='/projects/:type' render={({match}) => {
+            let projectType = Object.keys(allProjects).find(type => type === match.params.type)
+          return <> <Portfolio projectType={allProjects[projectType]} /> </>}}/>  
+          <Route exact path='/all' render={() => <> <Portfolio type='all' allProjectsArray={allProjectsArray} /> </>} />    
+      </>
     )
-}
+};
 
 export default Container;
