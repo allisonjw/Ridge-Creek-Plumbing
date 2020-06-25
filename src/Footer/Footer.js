@@ -35,7 +35,7 @@ export const Footer = () => {
           </div>
           <div className="footer_socialMedia-holder">
             <p className="footer_quote">We put our customers first!</p>
-            <a href="email"
+            <a href="https://www.facebook.com/ridgecreekplumbing/"
               className="footer_socialMedia-img" 
               target="_blank" 
               rel="noopener noreferrer">

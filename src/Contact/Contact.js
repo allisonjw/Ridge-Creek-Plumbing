@@ -50,7 +50,7 @@ export const Contact = () => {
         <section className="contact_socialMedia">
           <h3 className="social_h3">Contact Us On Social Media</h3>
           <div className="contact_media-holder" aria-label="container for all social media links">
-            <a href="email"
+            <a href="https://www.facebook.com/ridgecreekplumbing/"
               className="contact_socialMedia-img" 
               target="_blank" 
               rel="noopener noreferrer">
