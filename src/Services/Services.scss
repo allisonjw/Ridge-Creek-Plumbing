@@ -1,6 +1,10 @@
 @import '../SCSS/variables';
 @import '../SCSS/media-queries';
 
+.section_services {
+    animation: fade-in 1s ease-out both 0.3s;
+}
+
 .services_banner {
     width: 90%;
     height: 70vh;
@@ -88,9 +92,9 @@
     color: $main_color;
 }
 
-// @keyframes fadeIn {
-//     from {opacity: 0%;}
-//     to {opacity: 100%;}
-// }
+@keyframes fadeIn {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
 
 

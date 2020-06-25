@@ -1,6 +1,10 @@
 @import '../SCSS/variables';
 @import '../SCSS/media-queries';
 
+.section_contact {
+    animation: fade-in 1s ease-out both 0.3s;
+}
+
 .contact_banner {
     width: 90%;
     height: 70vh;
@@ -101,5 +105,10 @@
 .contact_media-holder {
     display: flex;
     flex-direction: row;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
 }
 
