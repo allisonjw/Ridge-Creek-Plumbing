@@ -61,11 +61,12 @@
     transition: all 0.3s ease 0s;
     &:hover {
         cursor: pointer;
+        transform: scale(1.1);
     }
 }
 
 a.portfolio_link-normal,
-a.portfolio_link-is_active {
+a.link-is_active {
     color: $main_color;
     text-decoration: none;
     &:hover {
@@ -75,9 +76,10 @@ a.portfolio_link-is_active {
 
 a.portfolio_link-normal {
     border: none;
+    background-color: $accent_color;
 }
 
-a.portfolio_link-is_active {
+a.link-is_active {
     color: $accent_color;
     background-color: $main_color;
     border-bottom: 1px solid pink;

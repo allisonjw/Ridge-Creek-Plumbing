@@ -25,7 +25,7 @@ export const Portfolio = ({ allCats, projectList }) => {
             <li 
                className="portfolio_nav-li">
                 <Link 
-                  activeStyle="portfolio_link-is_active"
+                  activeClassName="link-is_active"
                   className="portfolio_link-normal"
                   to={"/all"}>
                     ALL
@@ -34,7 +34,7 @@ export const Portfolio = ({ allCats, projectList }) => {
             <li 
               className="portfolio_nav-li">
                 <Link
-                  activeStyle="portfolio_link-is_active"
+                  activeClassName="link-is_active"
                   className="portfolio_link-normal"
                   to="/projects/residential">
                     RESIDENTIAL
@@ -43,7 +43,7 @@ export const Portfolio = ({ allCats, projectList }) => {
             <li 
               className="portfolio_nav-li">
                 <Link
-                  activeStyle="portfolio_link-is_active"
+                  activeClassName="link-is_active"
                   className="portfolio_link-normal"
                   to="/projects/commercial">
                     COMMERCIAL
@@ -52,7 +52,7 @@ export const Portfolio = ({ allCats, projectList }) => {
             <li 
                className="portfolio_nav-li">
                 <Link
-                  activeStyle="portfolio_link-is_active"
+                  activeClassName="link-is_active"
                   className="portfolio_link-normal"
                   to="/projects/mixedUse">
                     MIXED USE
@@ -61,7 +61,7 @@ export const Portfolio = ({ allCats, projectList }) => {
             <li 
                className="portfolio_nav-li">
                 <Link
-                  activeStyle="portfolio_link-is_active"
+                  activeClassName="link-is_active"
                   className="portfolio_link-normal"
                   to="/projects/hospitality">
                     HOSPITALITY
