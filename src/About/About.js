@@ -39,7 +39,7 @@ export const About = () => {
             </figcaption>
             </figure>
         </div>
-        {/* <Fade bottom> */}
+        <Fade bottom>
         <section className="section_about-why">
             <h2 className="about_h2">Why Ridgecreek</h2>
             <hr className="about_h2-underline"></hr>
@@ -49,8 +49,6 @@ export const About = () => {
               We are a signatory with United Association Local 26, Plumbers and Pipefitters Union, and we are also a member of the Olympia Master Builders Association. We pride ourselves on our strong relationships with local contractors and suppliers ensuring we are always able to deliver the highest level of service to our clients.
             </p>
         </section>
-        {/* </Fade> */}
-        {/* <Fade bottom> */}
         <section className="section_about-history">
             <h2 className="about_h2">Our History</h2>
             <hr className="about_h2-underline"></hr>
@@ -60,8 +58,6 @@ export const About = () => {
               Established in 2009, Ridgecreek Plumbing was founded by Garth Magaro, a Journeyman Plumber with nearly two decades experience in commercial and residential work serving corporate, academic, government, and residential customers. With a focus on excellent customer service, safety and code compliance, and a fine attention to detail, we ensure that each job exceeds customer expectations with a dedication to the highest standards of quality.
             </p>
         </section>
-        {/* </Fade> */}
-        {/* <Fade bottom> */}
         <section className="section_about-mission">
             <h2 className="about_h2">Mission Statement</h2>
             <hr className="about_h2-underline"></hr>
@@ -69,7 +65,7 @@ export const About = () => {
               We are interested in learning about your plumbing and hydronic projects. Our goal is to be your reliable partner in projects of any scope and size. We look forward to working with you.
             </p>
         </section>
-        {/* </Fade> */}
+        </Fade>
         <aside className="aside_testimonial">
           <h2 className="about_h2">Testimonials</h2>
           <hr className="about_testimonial-underline"></hr>
@@ -86,12 +82,12 @@ export const About = () => {
 			<label htmlFor="go2" className="btn btn-inside next">›</label>
 		  </figure>
 		  <figure className="testimonial" id="p2">
-			<p className="testimonial_content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."<br></br>~ Bill Tacoma, WA</p>
+			<p className="testimonial_content">"These guys are top quality.  They fixed my faulty pipes and hot water system that caused water damage.  The insurance company selected them for me, and the insurance company doesn't mess around, only select competent people.  They were gentlemen the whole time."<br></br>~ Stan Gig Harbor, WA</p>
 			<label htmlFor="go1" className="btn btn-inside prev">‹</label>
 			<label htmlFor="go3" className="btn btn-inside next">›</label>
 		  </figure>
 		  <figure className="testimonial" id="p3">
-			<p className="testimonial_content">"Malesuada pellentesque elit eget gravida cum sociis natoque. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Velit egestas dui id ornare. Tristique magna sit amet purus gravida quis blandit. Praesent semper feugiat nibh sed pulvinar. Turpis massa tincidunt dui ut ornare lectus sit amet."<br></br>~ John Seattle, WA</p>
+			<p className="testimonial_content">"I have used Ridgecreek a few times. They are my go to Plumber and do fantastic work. The owner, Garth, is a great person to work with.  They are responsive, knowledgable, honest, courteous, and very reasonably priced.  Their workmanship is high quality.  I strongly recommend them."<br></br>~ Lauren, Olympia WA</p>
 			<label htmlFor="go2" className="btn btn-inside prev">‹</label>
 			<label htmlFor="go4" className="btn btn-inside next">›</label>
 		  </figure>
