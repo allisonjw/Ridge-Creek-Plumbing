@@ -10,18 +10,14 @@ export const Categories = ({ pickedType, type, allProjectsArray }) => {
     const allCategoriesArrayList = allProjectsArray.map(project => <Projects key={project.id} {...project} />);
     return (
       <>
-        <section>
           <Portfolio allCats={allCategoriesArrayList} />
-        </section>
       </>
     )
    } else {
     const projectList = pickedType.map(project => <Projects key={project.id} {...project} />);
       return (
         <>
-          <section>
             <Portfolio projectList={projectList} />
-          </section>
         </>
       )
     };
