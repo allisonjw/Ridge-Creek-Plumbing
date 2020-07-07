@@ -1,6 +1,6 @@
 {
   "name": "ridge_creek-plumbing",
-  "homepage": "https://github.com/allisonjw/Ridge-Creek-Plumbing",
+  "homepage": "https://allisonjw.github.io/Ridge-Creek-Plumbing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,6 +17,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
