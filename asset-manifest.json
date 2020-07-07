@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Ridge-Creek-Plumbing/static/css/main.b63bb7a4.chunk.css",
-    "main.js": "/Ridge-Creek-Plumbing/static/js/main.730219d6.chunk.js",
-    "main.js.map": "/Ridge-Creek-Plumbing/static/js/main.730219d6.chunk.js.map",
+    "main.js": "/Ridge-Creek-Plumbing/static/js/main.d18ec71f.chunk.js",
+    "main.js.map": "/Ridge-Creek-Plumbing/static/js/main.d18ec71f.chunk.js.map",
     "runtime-main.js": "/Ridge-Creek-Plumbing/static/js/runtime-main.f3e55a12.js",
     "runtime-main.js.map": "/Ridge-Creek-Plumbing/static/js/runtime-main.f3e55a12.js.map",
-    "static/js/2.f1d09df7.chunk.js": "/Ridge-Creek-Plumbing/static/js/2.f1d09df7.chunk.js",
-    "static/js/2.f1d09df7.chunk.js.map": "/Ridge-Creek-Plumbing/static/js/2.f1d09df7.chunk.js.map",
+    "static/js/2.278dadc5.chunk.js": "/Ridge-Creek-Plumbing/static/js/2.278dadc5.chunk.js",
+    "static/js/2.278dadc5.chunk.js.map": "/Ridge-Creek-Plumbing/static/js/2.278dadc5.chunk.js.map",
     "index.html": "/Ridge-Creek-Plumbing/index.html",
-    "precache-manifest.64a3606d44ff43c412ec3cb2f3bba7a0.js": "/Ridge-Creek-Plumbing/precache-manifest.64a3606d44ff43c412ec3cb2f3bba7a0.js",
+    "precache-manifest.fae4a12d30e0238036f758ed12682ebf.js": "/Ridge-Creek-Plumbing/precache-manifest.fae4a12d30e0238036f758ed12682ebf.js",
     "service-worker.js": "/Ridge-Creek-Plumbing/service-worker.js",
     "static/css/main.b63bb7a4.chunk.css.map": "/Ridge-Creek-Plumbing/static/css/main.b63bb7a4.chunk.css.map",
-    "static/js/2.f1d09df7.chunk.js.LICENSE.txt": "/Ridge-Creek-Plumbing/static/js/2.f1d09df7.chunk.js.LICENSE.txt",
+    "static/js/2.278dadc5.chunk.js.LICENSE.txt": "/Ridge-Creek-Plumbing/static/js/2.278dadc5.chunk.js.LICENSE.txt",
     "static/media/7-eleven.png": "/Ridge-Creek-Plumbing/static/media/7-eleven.f3fe3ec9.png",
     "static/media/ARCO.jpg": "/Ridge-Creek-Plumbing/static/media/ARCO.d5fd78b6.jpg",
     "static/media/Laurana_Article_Image.jpg": "/Ridge-Creek-Plumbing/static/media/Laurana_Article_Image.d7a14efe.jpg",
@@ -38,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f3e55a12.js",
-    "static/js/2.f1d09df7.chunk.js",
+    "static/js/2.278dadc5.chunk.js",
     "static/css/main.b63bb7a4.chunk.css",
-    "static/js/main.730219d6.chunk.js"
+    "static/js/main.d18ec71f.chunk.js"
   ]
 }

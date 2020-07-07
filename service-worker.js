@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Ridge-Creek-Plumbing/precache-manifest.64a3606d44ff43c412ec3cb2f3bba7a0.js"
+  "/Ridge-Creek-Plumbing/precache-manifest.fae4a12d30e0238036f758ed12682ebf.js"
 );
 
 self.addEventListener('message', (event) => {
