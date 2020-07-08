@@ -74,7 +74,7 @@ main {
 .section_about-why,
 .section_about-history,
 .section_about-mission {
-    height: 400px;
+    height: 460px;
 }
 
 .about_h2,
@@ -250,4 +250,10 @@ figure {
 	-webkit-transform: translate3d(-1320px,0,0);
 	-moz-transform: translate3d(-1320px,0,0);
 	transform: translate3d(-1320px,0,0);
+}
+
+.mission_links-holder {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
 }
