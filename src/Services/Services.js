@@ -5,7 +5,8 @@ import Fade from 'react-reveal/Fade';
 import Reveal from 'react-reveal/Reveal'
 
 export const Services = () => {
-    return (
+    
+  return (
       <section className="section_services">
       <Fade left>
         <div className="services_banner" 
