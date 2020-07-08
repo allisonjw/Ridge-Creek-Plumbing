@@ -33,7 +33,7 @@ export const Nav = () => {
                 <NavLink 
                 activeClassName="navlink-is_active" 
                 className="navlink_normal"
-                to="/about"
+                to="/"
                 >
                 About
                 </NavLink>
