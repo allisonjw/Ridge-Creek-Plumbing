@@ -15,7 +15,7 @@ export const App = () => {
     <>
     <Container />
     <Switch>
-      <Route exact path={process.env.PUBLIC_URL + '/'} render={() => <> 
+      <Route exact path='/' render={() => <> 
         <Nav /> 
       <Fade left>  
         <About />
