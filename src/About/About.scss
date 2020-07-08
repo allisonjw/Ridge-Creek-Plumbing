@@ -91,6 +91,12 @@ main {
     height: 1%;
 }
 
+.about_paragraph {
+    width: 80%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
 .about_paragraph,
 .testimonials_description {
     font-size: 1.5em;
@@ -255,5 +261,18 @@ figure {
 .mission_links-holder {
     display: flex;
     flex-direction: column;
+    align-items: start;
+    padding: 1.5% 0 0 7%;
+    // text-decoration: none;
+}
+
+.about_mission-links {
     text-decoration: none;
+    transition: all .2s ease;
+    // font-size: 1.2em;
+    color: $main_color;
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
 }

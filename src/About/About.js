@@ -74,23 +74,35 @@ export const About = () => {
               <br></br>
               <ul 
                 className="mission_links-holder" aria-label="container to hold links for customer education">
-              <li 
-                href="https://secure.lni.wa.gov/verify/" 
-                className="about_mission-links">
-                  This link provides a tool for the general public to verify a contractor</li>  
-              <li 
-                href="https://www.lni.wa.gov/licensing-permits/contractors/hiring-a-contractor/protect-my-home"
-                className="about_mission-links">
-                  This link provides information about the risks one assumes when hiring someone who is not a contractor</li>
-              <li 
-                href="https://www.lni.wa.gov/licensing-permits/contractors/hiring-a-contractor/hire-smart-step-by-step"
-                className="about_mission-links">
-                  This link provides information about hiring a contractor</li>
-              <li 
-                href="https://lni.wa.gov/licensing-permits/contractors/problems-with-a-contractor/"
-                className="about_mission-links">
-                  This link provides information about what to do if you have problems with a contractor</li>
-                  </ul>
+                <a 
+                  href="https://secure.lni.wa.gov/verify/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="about_mission-links">
+                    This link provides a tool for the general public to verify a contractor
+                </a>  
+                <a 
+                  href="https://www.lni.wa.gov/licensing-permits/contractors/hiring-a-contractor/protect-my-home"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="about_mission-links">
+                    This link provides information about the risks one assumes when hiring someone who is not a contractor
+                </a>
+                <a 
+                  href="https://www.lni.wa.gov/licensing-permits/contractors/hiring-a-contractor/hire-smart-step-by-step"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="about_mission-links">
+                    This link provides information about hiring a contractor
+                </a>
+                <a 
+                  href="https://lni.wa.gov/licensing-permits/contractors/problems-with-a-contractor/"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="about_mission-links">
+                    This link provides information about what to do if you have problems with a contractor
+                </a>
+              </ul>
             </p>
         </section>
         </Fade>
