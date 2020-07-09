@@ -3,6 +3,9 @@
 
 .section_services {
     animation: fade-in 1s ease-out both 0.3s;
+    -webkit-animation: fade-in 1s ease-out both 0.3s;
+    -moz-animation: fade-in 1s ease-out both 0.3s;
+    -o-animation: fade-in 1s ease-out both 0.3s;
 }
 
 .services_banner {
