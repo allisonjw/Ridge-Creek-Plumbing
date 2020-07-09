@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './About.scss';
 import PNW from '../images/PNW_1.jpeg';
 import commercial from '../images/commercial_plumbing.jpeg';
@@ -6,8 +6,7 @@ import boots from '../images/boots.jpeg';
 import plumbing from '../images/plumbing_1.jpeg';
 import Fade from 'react-reveal/Fade';
 
-export class About extends Component {
-  render() {
+export const About = () => {
     return (
       <main>
         <div className="about_banner" aria-label="slideshow of images">
@@ -143,7 +142,6 @@ export class About extends Component {
         {/* </Fade> */}
       </main>
     )
-  }
 };
 
 export default About;
