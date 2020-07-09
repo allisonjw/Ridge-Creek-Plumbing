@@ -32,6 +32,19 @@
     }
 }
 
+.portfolio_info-links {
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+    transition: all .2s ease;
+    font-weight: 700;
+    color: #0a0a94f2;
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        color: $accent_color;
+    }
+}
+
 .portfolio_description-paragraph {
     color: $main_color;
     font-size: 1.4em;
