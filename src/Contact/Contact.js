@@ -5,7 +5,8 @@ import { FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaInstagram } from "reac
 import Fade from 'react-reveal/Fade';
 
 export const Contact = () => {
-    return (
+    
+  return (
       <section className="section_contact">
         <Fade left>
         <div className="contact_banner" 

@@ -15,15 +15,37 @@ export const App = () => {
     <>
     <Container />
     <Switch>
-      <Route exact path={process.env.PUBLIC_URL + '/'} render={() => <> 
-        <Nav /> 
-      <Fade left>  
-        <About />
-      </Fade>   
-      <Footer /> </>}/>
+      <Route exact path={process.env.PUBLIC_URL + '/'} render={() => {
+          return (
+            <>
+               <Nav /> 
+               <Fade left>  
+                 <About />
+               </Fade>   
+               <Footer />
+            </>
+          );
+      }}
+      />
       <Route path='/portfolio' render={() => <> <Nav /> <Portfolio/> <Footer /> </>}/> 
-      <Route path='/services' render={() => <> <Nav /> <Services/> <Footer /> </>}/>
-      <Route path='/contact' render={() => <> <Nav /> <Contact /> <Footer /> </>}/> 
+      <Route path='/services' render={() => {
+          return (
+            <> 
+              <Nav /> 
+              <Services/> 
+              <Footer /> 
+            </>
+          );
+      }}/>
+      <Route path='/contact' render={() => {
+          return (
+            <> 
+              <Nav /> 
+              <Contact /> 
+              <Footer /> 
+            </>
+          );
+      }}/> 
     </Switch>
     </> 
   );
