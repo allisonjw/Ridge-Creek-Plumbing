@@ -8,13 +8,13 @@ import Services from '../Services/Services';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 // import Fade from 'react-reveal/Fade';
-// import Container from '../Container/Container';
+import Container from '../Container/Container';
 
 export const App = () => {
   return (
     <>
       <Nav /> 
-      {/* <Container /> */}
+      <Container />
       <Switch>
       <Route exact path={process.env.PUBLIC_URL + '/'} render={() => {
           return (

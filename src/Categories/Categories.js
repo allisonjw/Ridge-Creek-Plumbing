@@ -3,7 +3,6 @@ import './Categories.scss';
 import Projects from '../Projects/Projects';
 import '../Portfolio/Portfolio.scss';
 import Portfolio from '../Portfolio/Portfolio';
-import Container from '../Container/Container';
 
 export const Categories = ({ pickedType, type, allProjectsArray }) => {
 
@@ -12,7 +11,6 @@ export const Categories = ({ pickedType, type, allProjectsArray }) => {
     return (
       <>
           <Portfolio allCats={allCategoriesArrayList} />
-          <Container />
       </>
     )
    } else {
@@ -20,7 +18,6 @@ export const Categories = ({ pickedType, type, allProjectsArray }) => {
       return (
         <>
             <Portfolio projectList={projectList} />
-            <Container />
         </>
       )
     };
