@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './About.scss';
 import PNW from '../images/PNW_1.jpeg';
 import commercial from '../images/commercial_plumbing.jpeg';
@@ -6,7 +6,8 @@ import boots from '../images/boots.jpeg';
 import plumbing from '../images/plumbing_1.jpeg';
 import Fade from 'react-reveal/Fade';
 
-export const About = () => {
+export class About extends Component {
+  render() {
     return (
       <main>
         <div className="about_banner" aria-label="slideshow of images">
@@ -54,9 +55,6 @@ export const About = () => {
             <h2 className="about_h2">Our History</h2>
             <hr className="about_h2-underline"></hr>
             <p className="about_paragraph">
-              Ridgecreek Plumbing specializes in residential and commercial plumbing installation, water and gas line repair, re-pipe, remodel, and new construction, serving Olympia, Lacey, Tumwater, and the greater South Sound region.
-              <br></br>
-              <br></br>
               Established in 2009, Ridgecreek Plumbing was founded by Garth Magaro, a Journeyman Plumber with nearly two decades experience in commercial and residential work serving corporate, academic, government, and residential customers. With a focus on excellent customer service, safety and code compliance, and a fine attention to detail, we ensure that each job exceeds customer expectations with a dedication to the highest standards of quality.
               <br></br>
               <br></br>
@@ -145,6 +143,7 @@ export const About = () => {
         {/* </Fade> */}
       </main>
     )
+  }
 };
 
 export default About;
