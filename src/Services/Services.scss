@@ -34,6 +34,26 @@
     }
 }
 
+.services_description-paragraph {
+    color: #040444f2;
+    font-size: 1.4em;
+    line-height: 1.7;
+    text-align: center;
+    font-weight: 500;
+    margin: 0 5%;
+    padding-bottom: 2%;
+    .services_union-link {
+        margin-left: 5px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #0a0a94f2;
+        &:hover {
+            cursor: pointer;
+            color: $accent_color;
+        }
+    }
+}
+
 .services_body {
     margin-right: auto;
     margin-left: auto;

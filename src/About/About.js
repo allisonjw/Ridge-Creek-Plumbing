@@ -69,38 +69,42 @@ export const About = () => {
             <br></br>
             Washington State's Department of Labor and Industries is responsible for overseeing contractors and the following links are great resources for homeowners:
               <br></br>
+            </p>  
               <ul 
                 className="mission_links-holder" aria-label="container to hold links for customer education">
+                  <li className="about_li">This
                 <a 
                   href="https://secure.lni.wa.gov/verify/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="about_mission-links">
-                    This link provides a tool for the general public to verify a contractor
-                </a>  
+                    link 
+                </a>provides a tool for the general public to verify a contractor</li>
+                <li className="about_li">This
                 <a 
                   href="https://www.lni.wa.gov/licensing-permits/contractors/hiring-a-contractor/protect-my-home"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="about_mission-links">
-                    This link provides information about the risks one assumes when hiring someone who is not a contractor
-                </a>
+                     link
+                </a>provides information about the risks one assumes when hiring someone who is not a contractor</li>
+                <li className="about_li">This
                 <a 
                   href="https://www.lni.wa.gov/licensing-permits/contractors/hiring-a-contractor/hire-smart-step-by-step"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="about_mission-links">
-                    This link provides information about hiring a contractor
-                </a>
+                    link
+                </a>provides information about hiring a contractor</li>
+                <li className="about_li">This
                 <a 
                   href="https://lni.wa.gov/licensing-permits/contractors/problems-with-a-contractor/"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="about_mission-links">
-                    This link provides information about what to do if you have problems with a contractor
-                </a>
+                    link
+                </a>provides information about what to do if you have problems with a contractor</li>
               </ul>
-            </p>
         </section>
         </Fade>
         <aside className="aside_testimonial">

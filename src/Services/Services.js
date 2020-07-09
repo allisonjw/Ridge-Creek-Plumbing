@@ -18,6 +18,27 @@ export const Services = () => {
           </div>
         </div> 
         </Fade>
+        <p className="services_description-paragraph">For light commercial projects, tenant improvement projects and larger commercial and industrial projects, as a signatory to the Local 26 Plumbers and Pipefitters Union, we have access to a pool of trained and skilled plumbers who can assist with any plumbing project. Visit Local 26's
+          <a 
+            href="http://www.ua26.org/"
+            target="_blank" 
+            className="services_union-link"
+            aria-label="link to Local Union 26's website"
+            rel="noopener noreferrer">
+              website
+          </a>
+        <br></br>
+        <br></br>
+        Local 26 is part of a National Plumbers and Pipefitters Union. Additional information about the National UA can be found 
+          <a 
+            href="http://www.ua.org/"
+            target="_blank" 
+            className="services_union-link"
+            aria-label="link to National Plumber's website"
+            rel="noopener noreferrer">
+              here
+          </a>
+        </p>
         <section className="services_body">
           <article className="services_article">
           <Reveal effect="pulse">
