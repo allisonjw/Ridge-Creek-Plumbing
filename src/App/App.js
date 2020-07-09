@@ -13,40 +13,48 @@ import Container from '../Container/Container';
 export const App = () => {
   return (
     <>
+    <Nav />
     <Container />
     <Switch>
       <Route exact path={process.env.PUBLIC_URL + '/'} render={() => {
           return (
             <>
-               <Nav /> 
+               {/* <Nav />  */}
                {/* <Fade left>   */}
                  <About />
                {/* </Fade>    */}
-               <Footer />
+               {/* <Footer /> */}
             </>
           );
       }}
       />
-      <Route path='/portfolio' render={() => <> <Nav /> <Portfolio/> <Footer /> </>}/> 
+      <Route path='/portfolio' render={() => 
+        <> 
+          {/* <Nav />  */}
+          <Portfolio/> 
+          {/* <Footer />  */}
+        </>
+      }/> 
       <Route path='/services' render={() => {
           return (
             <> 
-              <Nav /> 
+              {/* <Nav />  */}
               <Services/> 
-              <Footer /> 
+              {/* <Footer />  */}
             </>
           );
       }}/>
       <Route path='/contact' render={() => {
           return (
             <> 
-              <Nav /> 
+              {/* <Nav />  */}
               <Contact /> 
-              <Footer /> 
+              {/* <Footer />  */}
             </>
           );
       }}/> 
     </Switch>
+    <Footer />
     </> 
   );
 }

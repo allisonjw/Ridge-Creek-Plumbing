@@ -13,8 +13,8 @@ export const Container = () => {
         <>
           <Route exact path='/projects/:type' render={({match}) => {
             let projectType = Object.keys(allProjects).find(type => type === match.params.type)
-          return <> <Nav /> <Categories pickedType={allProjects[projectType]} /> <Footer/> </>}}/>  
-          <Route exact path='/all' render={() => <> <Nav /> <Categories type='all' allProjectsArray={allProjectsArray} /> <Footer/> </>} /> 
+          return <>  <Categories pickedType={allProjects[projectType]} />  </>}}/>  
+          <Route exact path='/all' render={() => <>  <Categories type='all' allProjectsArray={allProjectsArray} />  </>} /> 
         </>   
     )
 };
