@@ -1,12 +1,11 @@
 export const allProjects = {
     commercial: [
         {
-            //fake commercial project
             id: 1,
             project_type: 'commercial',
-            name: 'Company XYZ',
-            location: 'Tacoma',
-            image: require('../images/Point-Ruston.jpg'),
+            name: 'Puyallup School District',
+            location: 'Puyallup, WA',
+            image: require('../images/puyallup.jpg'),
         },
         {
             id: 2,
@@ -19,7 +18,7 @@ export const allProjects = {
             id: 3,
             project_type: 'commercial',
             name: 'Les Schwab Tire Center',
-            location: 'Centralia',
+            location: 'Centralia, WA',
             image: require('../images/les_schwab.jpg'),
         },
         {
@@ -35,64 +34,70 @@ export const allProjects = {
             name: '7-Eleven',
             location: 'South Sound Region',
             image: require('../images/7-eleven.png'),
+        },
+        {
+            id: 6,
+            project_type: 'commercial',
+            name: 'Cedar Crest Homes',
+            location: 'Olympia, WA',
+            image: require('../images/cedar_crest.jpg'),
         }
+
     ],
     residential: [
         {
             //fake residence
-            id: 6,
-            project_type: 'residential',
-            name: 'Smith Residence',
-            location: 'Tacoma',
-            image: require('../images/residence_project.jpg'),
-        },
-        {
             id: 7,
             project_type: 'residential',
-            name: 'Gilbert Residence',
-            location: 'Olympia',
-            image: require('../images/gilbert.jpeg'),
+            name: 'Smith Residence',
+            location: 'Tacoma, WA',
+            image: require('../images/residence_project.jpg'),
         },
         {
             id: 8,
             project_type: 'residential',
+            name: 'Gilbert Residence',
+            location: 'Olympia, WA',
+            image: require('../images/gilbert.jpeg'),
+        },
+        {
+            id: 9,
+            project_type: 'residential',
             name: 'Wagner Residence',
-            location: 'Olympia',
+            location: 'Olympia, WA',
             image: require('../images/wagner.jpg'),
         }
     ],
     mixedUse: [    
         {
-            id: 9,
+            id: 10,
             project_type: 'mixed-use',
             name: 'The Laurana',
-            location: 'Olympia',
+            location: 'Olympia, WA',
             image: require('../images/Laurana_Article_Image.jpg'),
         },
         {
-            //fake mixed-use
-            id: 10,
+            id: 11,
             project_type: 'mixed-use',
-            name: 'The XYZ',
-            location: 'Olympia',
-            image: require('../images/xyz.jpg'),
+            name: `Barney's of New York`,
+            location: 'Seattle, WA',
+            image: require('../images/barneys.jpg'),
         }
     ],
     hospitality: [
         {
-            id: 11,
+            id: 12,
             project_type: 'hospitality',
             name: 'The Windjammer Hotel',
-            location: 'Pacific Beach',
+            location: 'Pacific Beach, WA',
             image: require('../images/windjammer.jpg'),
         },
         {
-            //fake hospitality
-            id: 12,
+            id: 13,
             project_type: 'hospitality',
-            name: 'XYZ Hotel',
-            location: 'Seattle',
-            image: require('../images/seattle.jpeg'),
+            name: 'Embassy Suites',
+            location: 'Norman, OK',
+            image: require('../images/embassy.jpg'),
         }
     ]   
 };
