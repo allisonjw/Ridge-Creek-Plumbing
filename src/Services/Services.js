@@ -76,7 +76,7 @@ export const Services = () => {
           <article className="services_article">
             <aside className="services_description-holder-4">
               <h3 className="services_h3">Water and Gas</h3>
-              <p className="services_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p className="services_paragraph">Whether you have a new water heater or an older water heater, proper and routine water heater maintenance is something you can do to extend its life, minimize costs for repair and replacement, and lower your energy costs.</p>
             </aside>
           <Reveal effect="pulse">
             <aside className="services_img-holder-4">
