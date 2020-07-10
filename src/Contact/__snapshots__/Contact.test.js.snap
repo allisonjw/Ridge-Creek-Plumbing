@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact should match the snapshot 1`] = `
+<section
+  className="section_contact"
+>
+  <Fade
+    left={true}
+  >
+    <div
+      aria-label="notification of contact page"
+      className="contact_banner"
+    >
+      <div
+        aria-label="picture of hard hat and boots"
+        className="contact_img"
+        style={
+          Object {
+            "backgroundImage": "linear-gradient(rgba(255, 252, 252, 0.25), rgba(255, 254, 254, 0.15)), url(boots_gloves.jpeg)",
+          }
+        }
+      >
+        <h2
+          className="contact_banner-h2"
+        >
+          Contact Us
+        </h2>
+      </div>
+    </div>
+  </Fade>
+  <section
+    className="contact_body"
+  >
+    <div
+      aria-label="container for location information"
+      className="location_div"
+    >
+      <h3
+        className="contact_h3"
+      >
+        LOCATION
+      </h3>
+      <p
+        className="contact_address-paragraph"
+      >
+        2849 Black Lake Blvd.
+        <br />
+        Olympia, WA 98502
+      </p>
+    </div>
+    <div
+      aria-label="container for contact email"
+      className="email_div"
+    >
+      <h3
+        className="contact_h3"
+      >
+        EMAIL
+      </h3>
+      <a
+        aria-label="email address"
+        className="contact_link"
+        href="mailto:Ridgecreekplumbingllc@gmail.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Ridgecreekplumbingllc@gmail.com
+      </a>
+    </div>
+    <div
+      aria-label="container for contact telephone number"
+      className="phone_div"
+    >
+      <h3
+        className="contact_h3"
+      >
+        PHONE
+      </h3>
+      <a
+        aria-label="phone number"
+        className="contact_link"
+        href="tel:3604856605"
+      >
+        360.485.6605
+      </a>
+    </div>
+  </section>
+  <section
+    className="contact_socialMedia"
+  >
+    <h3
+      className="social_h3"
+    >
+      Contact Us On Social Media
+    </h3>
+    <div
+      aria-label="container for all social media links"
+      className="contact_media-holder"
+    >
+      <a
+        className="contact_socialMedia-img"
+        href="https://www.facebook.com/ridgecreekplumbing/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <FaFacebookSquare />
+      </a>
+      <a
+        className="contact_socialMedia-img"
+        href="instagram"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <FaInstagram />
+      </a>
+      <a
+        className="contact_socialMedia-img"
+        href="linkedin"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <FaLinkedin />
+      </a>
+      <a
+        className="contact_socialMedia-img"
+        href="twitter"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <FaTwitterSquare />
+      </a>
+    </div>
+  </section>
+</section>
+`;
