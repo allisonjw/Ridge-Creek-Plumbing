@@ -22,7 +22,7 @@ export const Contact = () => {
           <div className="location_div" aria-label="container for location information">
             <h3 className="contact_h3">LOCATION</h3>
             <p className="contact_address-paragraph">
-              1234 Main Street
+              2849 Black Lake Blvd.
               <br></br>
               Olympia, WA 98502
             </p>
