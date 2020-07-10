@@ -35,7 +35,7 @@
 }
 
 .services_description-paragraph {
-    color: #040444f2;
+    color: $main_color;
     font-size: 1.4em;
     line-height: 1.7;
     text-align: center;
@@ -46,10 +46,10 @@
         margin-left: 5px;
         text-decoration: none;
         font-weight: 700;
-        color: #0a0a94f2;        
+        color: $accent_color;
         &:hover {
             cursor: pointer;
-            color: $accent_color;
+            color: #0a0a94f2;        
         }
     }
 }
