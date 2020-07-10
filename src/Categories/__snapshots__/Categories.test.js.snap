@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Categories should match the snapshot if the type is all 1`] = `ShallowWrapper {}`;
+
+exports[`Categories should match the snapshot if there is a project type 1`] = `ShallowWrapper {}`;
