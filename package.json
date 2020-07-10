@@ -41,9 +41,6 @@
     "enzyme-to-json": "^3.5.0"
   },
   "jest": {
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ],
     "coveragePathIgnorePatterns": [
       "src/index.js"
     ]
