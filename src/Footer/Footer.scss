@@ -13,8 +13,9 @@ footer {
 }
 
 .logo-img {
-    width: 25%;
+    width: 20%;
     margin-right: 5%;
+    border-radius: 3px;
 }
 
 .footer_socialMedia-holder {
@@ -51,6 +52,7 @@ footer {
     margin: 0 1%;
     &:hover {
         cursor: pointer;
+        color: $accent_color;
     }
 }
 
