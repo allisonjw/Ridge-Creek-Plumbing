@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav should match the snapshot 1`] = `
+<header>
+  <div
+    aria-label="banner for phone number and email"
+    className="nav_banner"
+  >
+    <a
+      aria-label="phone number"
+      className="nav_banner-link"
+      href="tel:3604856605"
+    >
+      360.485.6605
+    </a>
+    <a
+      aria-label="email address"
+      className="nav_banner-link"
+      href="mailto:Ridgecreekplumbingllc@gmail.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Ridgecreekplumbingllc@gmail.com
+    </a>
+  </div>
+  <div
+    aria-label="business logo"
+    className="header_logo"
+  >
+    <h1>
+      Ridgecreek
+    </h1>
+    <h2
+      className="nav_h2"
+    >
+      <span
+        className="nav_img"
+      >
+        <AiFillTool />
+      </span>
+      Plumbing | Gas
+      <span
+        className="nav_img"
+      >
+        <IoIosFlame />
+      </span>
+    </h2>
+  </div>
+  <nav
+    aria-label="main navigation"
+    role="navigation"
+  >
+    <ul
+      className="all_navbar_links"
+    >
+      <li
+        className="navbar_item"
+      >
+        <NavLink
+          activeClassName="navlink-is_active"
+          className="navlink_normal"
+          to="/"
+        >
+          About
+        </NavLink>
+      </li>
+      <li
+        className="navbar_item"
+      >
+        <NavLink
+          activeClassName="navlink-is_active"
+          className="navlink_normal"
+          to="/portfolio"
+        >
+          Portfolio
+        </NavLink>
+      </li>
+      <li
+        className="navbar_item"
+      >
+        <NavLink
+          activeClassName="navlink-is_active"
+          className="navlink_normal"
+          to="/services"
+        >
+          Services
+        </NavLink>
+      </li>
+      <li
+        className="navbar_item"
+      >
+        <NavLink
+          activeClassName="navlink-is_active"
+          className="navlink_normal"
+          to="/contact"
+        >
+          Contact
+        </NavLink>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;

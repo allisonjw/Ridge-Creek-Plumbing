@@ -7,25 +7,47 @@ import Portfolio from '../Portfolio/Portfolio';
 import Services from '../Services/Services';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 import Container from '../Container/Container';
 
 export const App = () => {
   return (
     <>
-    <Container />
-    <Switch>
-      <Route exact path='/about' render={() => <> 
-        <Nav /> 
-      <Fade left>  
-        <About />
-      </Fade>   
-      <Footer /> </>}/>
-      <Route path='/portfolio' render={() => <> <Nav /> <Portfolio/> <Footer /> </>}/> 
-      <Route path='/services' render={() => <> <Nav /> <Services/> <Footer /> </>}/>
-      <Route path='/contact' render={() => <> <Nav /> <Contact /> <Footer /> </>}/> 
+      <Nav /> 
+      <Container />
+      <Switch>
+      <Route exact path={process.env.PUBLIC_URL + '/'} render={() => {
+          return (
+            <>
+               {/* <Fade left>   */}
+                 <About />
+               {/* </Fade>    */}
+            </>
+          );
+      }}
+      />
+      <Route path='/portfolio' render={() => 
+        <> 
+          <Portfolio/> 
+        </>
+      }/> 
+      <Route path='/services' render={() => {
+          return (
+            <> 
+              <Services/> 
+            </>
+          );
+      }}/>
+      <Route path='/contact' render={() => {
+          return (
+            <> 
+              <Contact /> 
+            </>
+          );
+      }}/> 
     </Switch>
-    </>
+    <Footer />
+    </> 
   );
 }
 

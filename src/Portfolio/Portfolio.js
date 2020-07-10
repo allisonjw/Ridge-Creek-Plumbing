@@ -20,7 +20,30 @@ export const Portfolio = ({ allCats, projectList }) => {
           </div>
           </Fade>
           <p className="portfolio_description-paragraph">
-            Whether working with a home owner to replace a plumbing appliance, a landlord to make tenant improvements, or a commercial contractor to install a building’s plumbing and hydronic system, our commitment to quality of service and workmanship is why we are trusted across the South Sound region. Select a category below to see more information.
+            Whether working with a home owner to replace a plumbing appliance, a landlord to make tenant improvements, or a commercial contractor to install a building’s plumbing and hydronic system, our commitment to quality of service and workmanship is why we are trusted across the South Sound region. 
+            <br></br>
+            <br></br>
+            Prior to starting Ridgecreek Plumbing, Garth was a UA member in several different states, working under various plumbing codes. He believed in the standard of excellence established by the UA, which can be found 
+            <a   
+              href="https://uanet.org/pdf/docs/Stand_For_Excellence.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="portfolio_info-links">here.
+              </a>He believed in the standard of safety established by the UA, which can be found 
+              <a 
+                href="https://uanet.org/pdf/docs/Stand_For_Safety_Brochure.pdf"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="portfolio_info-links">here</a> 
+            Ridgecreek Plumbing, LLC is also a member of the Olympia Master Builders Association. A link to their website is 
+            <a 
+            href="https://omb.org/"
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="portfolio_info-links">here</a>  
+            <br></br>
+            <br></br>
+            Select a category below to see more information.
           </p>
           <ul className="portfolio_navigation-bar">
             <li 

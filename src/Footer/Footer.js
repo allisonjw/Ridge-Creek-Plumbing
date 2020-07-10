@@ -6,10 +6,10 @@ import './Footer.scss';
 export const Footer = () => {
     return (
       <footer>
-          <img className="logo-img" alt="ridge creek plumbing logo" src={require('../images/logo.png')}></img>
+          <img className="logo-img" alt="ridge creek plumbing logo" src={require('../images/logo-white.png')}></img>
           <div className="footer_links-holder">
            <Link 
-             to="/about"       
+             to="/"       
              className="footer_link"
            >
                About

@@ -45,7 +45,8 @@ export const About = () => {
             <hr className="about_h2-underline"></hr>
             <p className="about_paragraph">
               Whether working with a home owner to replace a plumbing appliance, a landlord to make tenant improvements, or a commercial contractor to install a building’s plumbing and hydronic system, our commitment to quality of service and workmanship is why we are trusted across the South Sound region.
-
+              <br></br>
+              <br></br>
               We are a signatory with United Association Local 26, Plumbers and Pipefitters Union, and we are also a member of the Olympia Master Builders Association. We pride ourselves on our strong relationships with local contractors and suppliers ensuring we are always able to deliver the highest level of service to our clients.
             </p>
         </section>
@@ -53,17 +54,57 @@ export const About = () => {
             <h2 className="about_h2">Our History</h2>
             <hr className="about_h2-underline"></hr>
             <p className="about_paragraph">
-              Ridgecreek Plumbing specializes in residential and commercial plumbing installation, water and gas line repair, re-pipe, remodel, and new construction, serving Olympia, Lacey, Tumwater, and the greater South Sound region.
-
               Established in 2009, Ridgecreek Plumbing was founded by Garth Magaro, a Journeyman Plumber with nearly two decades experience in commercial and residential work serving corporate, academic, government, and residential customers. With a focus on excellent customer service, safety and code compliance, and a fine attention to detail, we ensure that each job exceeds customer expectations with a dedication to the highest standards of quality.
+              <br></br>
+              <br></br>
+              One of the things that makes Ridgecreek Plumbing, LLC unique is that Garth's education, training, and experience has helped shape Ridgecreek Plumbing into a business that offers a wide range of mechanical services. From residential service and repair for homeowners, to light commercial and tenant improvement projects for small business owners and landlords, to commercial and industrial projects for general contractors, our plumbers are skilled to do it all.
             </p>
         </section>
         <section className="section_about-mission">
             <h2 className="about_h2">Mission Statement</h2>
             <hr className="about_h2-underline"></hr>
             <p className="about_paragraph">
-              We are interested in learning about your plumbing and hydronic projects. Our goal is to be your reliable partner in projects of any scope and size. We look forward to working with you.
-            </p>
+            For our homeowner clients, one of the most important things we can offer, at no cost, is reliable information and resources for them to learn about hiring contractors and protecting their rights.  A contractor who is licensed, bonded and insured can often provide a high quality of workmanship and ensure adequate protections for homeowners.  
+            <br></br>
+            <br></br>
+            Washington State's Department of Labor and Industries is responsible for overseeing contractors and the following links are great resources for homeowners:
+              <br></br>
+            </p>  
+              <ul 
+                className="mission_links-holder" aria-label="container to hold links for customer education">
+                  <li className="about_li">This
+                <a 
+                  href="https://secure.lni.wa.gov/verify/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="about_mission-links">
+                    link 
+                </a>provides a tool for the general public to verify a contractor</li>
+                <li className="about_li">This
+                <a 
+                  href="https://www.lni.wa.gov/licensing-permits/contractors/hiring-a-contractor/protect-my-home"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="about_mission-links">
+                     link
+                </a>provides information about the risks one assumes when hiring someone who is not a contractor</li>
+                <li className="about_li">This
+                <a 
+                  href="https://www.lni.wa.gov/licensing-permits/contractors/hiring-a-contractor/hire-smart-step-by-step"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="about_mission-links">
+                    link
+                </a>provides information about hiring a contractor</li>
+                <li className="about_li">This
+                <a 
+                  href="https://lni.wa.gov/licensing-permits/contractors/problems-with-a-contractor/"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="about_mission-links">
+                    link
+                </a>provides information about what to do if you have problems with a contractor</li>
+              </ul>
         </section>
         </Fade>
         <aside className="aside_testimonial">
