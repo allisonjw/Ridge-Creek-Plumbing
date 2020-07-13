@@ -51,7 +51,7 @@ export const Services = () => {
               <p className="services_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </aside>
           </article>
-          <article className="services_article">
+          <article className="services_article responsive_article-style">
             <aside className="services_description-holder-2">
               <h3 className="services_h3">Remodeling</h3>
               <p className="services_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -73,7 +73,7 @@ export const Services = () => {
               <p className="services_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </aside>
           </article>
-          <article className="services_article">
+          <article className="services_article responsive_article-style">
             <aside className="services_description-holder-4">
               <h3 className="services_h3">Water and Gas</h3>
               <p className="services_paragraph">Whether you have a new water heater or an older water heater, proper and routine water heater maintenance is something you can do to extend its life, minimize costs for repair and replacement, and lower your energy costs.</p>
