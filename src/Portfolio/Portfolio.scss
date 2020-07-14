@@ -73,6 +73,12 @@
     font-weight: 500;
     margin: 0 5%;
     padding-bottom: 1%;
+    @include sm {
+        font-size: 1.2em
+    }
+    @include xs {
+        font-size: 1.2em;
+    }
 }
 
 .portfolio_navigation-bar {
@@ -83,6 +89,11 @@
     margin-right: auto;
     text-align: center;
     background-color: $accent_color;
+    @include sm {
+        display: flex;
+        flex-direction: column;
+        padding: 0.8%;
+    }
 }
 
 .portfolio_nav-li {
@@ -92,6 +103,10 @@
     font-size: 1.3em;
     font-weight: 600;
     transition: all 0.3s ease 0s;
+    @include md {
+        font-size: 1.1em;
+        margin: 0 9px 5px;
+    }
     &:hover {
         cursor: pointer;
         transform: scale(1.1);

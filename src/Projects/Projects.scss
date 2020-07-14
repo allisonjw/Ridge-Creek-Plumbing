@@ -34,6 +34,11 @@
     border: 2px solid #005798;
     cursor: pointer;
     overflow: hidden;
+    line-height: 2.7;
+    @include sm {
+        width: 345px;
+        height: 230px;
+    }
 }
 
 .project:hover .reveal-top {
@@ -52,6 +57,10 @@
     float: left;
     width: 375px;
     height: 260px;
+    @include sm {
+        width: 345px;
+        height: 230px;
+    }
 }
   
 .reveal-top {
@@ -78,8 +87,11 @@
     height: 100%;
     text-align: center;
     padding: 3%;
+    @include sm {
+        font-size: 1.1em;
+    }
 }
 .project_reveal-h4-location {
-    top: 35px;
+    top: 30px;
 }
 
