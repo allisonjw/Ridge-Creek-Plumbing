@@ -150,12 +150,22 @@ main {
         height: 420px;
     }
     @include sm {
-        height: 400px;
+        height: 380px;
     }
     @include xs {
         height: 385px;
     }
 }
+
+.section_about-history,
+.section_about-mission {
+    @include sm {
+        height: 500px;
+    }
+    @include xs {
+        height: 541px;
+    }
+}    
 
 .about_h2,
 .about_h2-why {
@@ -301,11 +311,11 @@ figure {
     }
     @include sm {
         width: auto;
-        margin: 22% 0% 4%;
+        margin: 11% 0% 4%;
     }
     @include xs {
         width: auto;
-        margin: 60% 0% 4%;
+        margin: 30% 0% 4%;
     }
 }
 
