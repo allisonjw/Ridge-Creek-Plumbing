@@ -31,7 +31,7 @@ main {
     @include sm {
         height: 40vh;
     }
-    figure {
+    .banner_figure {
       position: absolute;
       width: 100%;
       height: 70vh;
@@ -122,7 +122,7 @@ main {
           padding: 5px 10px;
           opacity: 0;
           transition: opacity .5s;
-          &:hover figure figcaption {
+          &:hover .banner_figure figcaption {
               visibility: visible;
             transition: opacity .5s;
             opacity: 1;
@@ -150,12 +150,22 @@ main {
         height: 420px;
     }
     @include sm {
-        height: 400px;
+        height: 380px;
     }
     @include xs {
         height: 385px;
     }
 }
+
+.section_about-history,
+.section_about-mission {
+    @include sm {
+        height: 500px;
+    }
+    @include xs {
+        height: 541px;
+    }
+}    
 
 .about_h2,
 .about_h2-why {
@@ -242,7 +252,7 @@ main {
     }
 }
 
-figure {
+.testimonial_figure {
 	margin: 0;
     padding: 0;
     @include lg {
@@ -265,7 +275,7 @@ figure {
     margin-top: 5%;
     line-height: 1.2;
     color: $main_color;
-    font-weight: 700;
+    font-weight: 500;
     padding: 0 5% 0 5%;
     @include xl {
         font-size: 2.5em;
@@ -280,7 +290,8 @@ figure {
         font-size: 1em
     }
     @include xs {
-        font-size: 1em;
+        font-size: 0.9em;
+        padding: 0 44% 0 0%;
     }
 }
 
@@ -301,11 +312,11 @@ figure {
     }
     @include sm {
         width: auto;
-        margin: 22% 0% 4%;
+        margin: 11% 0% 4%;
     }
     @include xs {
         width: auto;
-        margin: 60% 0% 4%;
+        margin: 30% 0% 4%;
     }
 }
 
@@ -327,9 +338,13 @@ figure {
         left: 10em
     }
     @include sm {
-        left: 3em;
+        left: 0em;
+        display: block;
+        margin: auto;    
     }
     @include xs {
+        width: 280px;
+        padding: 0;
         left: 0em;
     }
 }
@@ -359,7 +374,11 @@ figure {
 .about_testimonials {
 	width: 1760px;
 	height: 400px;
-	position: relative;
+    position: relative;
+    @include xs {
+        width: 1860px;
+        height: 270px;
+    }
 }
 
 .about_testimonial-underline {
@@ -370,7 +389,7 @@ figure {
     position: absolute;
 }
 
-.testimonial {
+.testimonial_figure {
 	float:left;
 	width: 400px;
 	position: relative;
@@ -412,11 +431,17 @@ figure {
 }
 
 .next {
-	left: 13em;
+    left: 13em;
+    @include xs {
+        left: 7.5em
+    }
 }
 
 .prev {
-	left:-0.6em;
+    left:-0.6em;
+    @include xs {
+        left: -0.5em;
+    }
 }
 
 .btn-inside {

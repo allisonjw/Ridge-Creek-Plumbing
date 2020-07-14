@@ -10,28 +10,28 @@ export const About = () => {
     return (
       <main>
         <div className="about_banner" aria-label="slideshow of images">
-          <figure>
+          <figure className="banner_figure">
             <div className="about_img" style={{ backgroundImage:`linear-gradient(rgba(255, 252, 252, 0.25), rgba(255, 254, 254, 0.15)), url(${PNW})` }}> 
             </div>
               <figcaption>
                 Image of the puget sound in the Pacific Northwest. 
               </figcaption>
             </figure>
-            <figure>
+            <figure className="banner_figure">
               <div className="about_img" style={{ backgroundImage:`linear-gradient(rgba(255, 252, 252, 0.25), rgba(255, 254, 254, 0.15)), url(${commercial})` }}> 
               </div>
             <figcaption>
                 One of our commercial plumbing projects. 
             </figcaption>
             </figure>
-            <figure>
+            <figure className="banner_figure">
               <div className="about_img" style={{ backgroundImage:`linear-gradient(rgba(255, 252, 252, 0.25), rgba(255, 254, 254, 0.15)), url(${boots})` }}> 
               </div>
             <figcaption>
                 We work rain or shine.
             </figcaption>
             </figure>
-            <figure>
+            <figure className="banner_figure">
               <div className="about_img" style={{ backgroundImage:`linear-gradient(rgba(255, 252, 252, 0.25), rgba(255, 254, 254, 0.15)), url(${plumbing})` }}> 
               </div>
             <figcaption>
@@ -118,21 +118,21 @@ export const About = () => {
           <input id="go3" type="radio" name="select" className="input" checked/>
           <input id="go4" type="radio" name="select" className="input"checked/>
 	     <figure className="about_testimonials">
-		   <figure className="testimonial" id="p1">
+		   <figure className="testimonial_figure" id="p1">
 			<p className="testimonial_content">"Garth and his team at RidgeCreek has been there for me multiple times for projects (and one homeowner caused emergency) and I’ve been incredibly impressed with their responsiveness and attention to detail. Although they work on large commercial projects, they treated mine like it was just as important.  I would highly recommend them for any plumbing project."<br></br>~ Chris Olympia, WA</p>
 			<label htmlFor="go2" className="btn btn-inside next">›</label>
 		  </figure>
-		  <figure className="testimonial" id="p2">
+		  <figure className="testimonial_figure" id="p2">
 			<p className="testimonial_content">"These guys are top quality.  They fixed my faulty pipes and hot water system that caused water damage.  The insurance company selected them for me, and the insurance company doesn't mess around, only select competent people.  They were gentlemen the whole time."<br></br>~ Stan Gig Harbor, WA</p>
 			<label htmlFor="go1" className="btn btn-inside prev">‹</label>
 			<label htmlFor="go3" className="btn btn-inside next">›</label>
 		  </figure>
-		  <figure className="testimonial" id="p3">
+		  <figure className="testimonial_figure" id="p3">
 			<p className="testimonial_content">"I have used Ridgecreek a few times. They are my go to Plumber and do fantastic work. The owner, Garth, is a great person to work with.  They are responsive, knowledgable, honest, courteous, and very reasonably priced.  Their workmanship is high quality.  I strongly recommend them."<br></br>~ Lauren, Olympia WA</p>
 			<label htmlFor="go2" className="btn btn-inside prev">‹</label>
 			<label htmlFor="go4" className="btn btn-inside next">›</label>
 		  </figure>
-          <figure className="testimonial" id="p4">
+          <figure className="testimonial_figure" id="p4">
 			<p className="testimonial_content">"Pellentesque habitant morbi tristique senectus et netus. Faucibus a pellentesque sit amet porttitor eget. Sit amet volutpat consequat mauris nunc congue nisi. Augue lacus viverra vitae congue eu consequat. Libero justo laoreet sit amet cursus sit."<br></br>~ Mary Olympia, WA</p>
 			<label htmlFor="go3" className="btn btn-inside prev">‹</label>
 			<label htmlFor="go1" className="btn btn-inside next">«</label>
