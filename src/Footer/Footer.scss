@@ -21,19 +21,22 @@ footer {
     }
     @include lg {
         width: 17%;
+        height: 17%;
         margin-right: 6%;
     }
     @include md {
         width: 17%;
+        height: 17%;
         margin-right: 6%;
     }
     @include sm {
         width: 21%;
+        height: 21%;
         margin-left: 6%;
     }
     @include xs {
-        margin-right: 9%;
-    }
+        margin-right: 2%;
+        margin-left: 4px;    }
 }
 
 .footer_socialMedia-holder {
