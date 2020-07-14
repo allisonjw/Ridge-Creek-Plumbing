@@ -62,15 +62,6 @@
     font-weight: 500;
     margin: 0 5%;
     padding-bottom: 2%;
-    @include xl {
-        font-size: 2.2em;
-    }
-    @include lg {
-        font-size: 1.7em;
-    }
-    @include md {
-        font-size: 1.4em;
-    }
     @include sm {
         font-size: 1.2em
     }
