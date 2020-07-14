@@ -51,6 +51,15 @@
         top: 18%;
         left: 14%;
         text-shadow: 5px 4px 6px #000000b5;
+        @include lg {
+            font-size: 3.5em;
+        }
+        @include md {
+            font-size: 3em;
+        }
+        @include sm {
+            font-size: 2.5em;
+        }    
     }
 }
 
@@ -60,6 +69,9 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 7%;
+    @include md {
+        flex-direction: column;
+    }
 }
 
 .location_div,
@@ -75,13 +87,25 @@
 .location_div,
 .email_div {
     border-right: 1px solid $main_color;
+    @include sm {
+        border: none;
+    }
 }
 
 .contact_h3 {
     color: $accent_color;
     font-size: 1.7em;
     margin-bottom: 12px;
-    letter-spacing: 2px;;
+    letter-spacing: 2px;
+    @include md {
+        font-size: 2.5em;
+    }
+    @include sm {
+        font-size: 2em;
+    }
+    @include xs {
+        font-size: 1.7em;
+    }
 }
 
 .contact_link {
@@ -90,6 +114,15 @@
     font-size: 1.4em;
     color: $main_color;
     font-weight: 500;
+    @include md {
+        font-size: 1.7em;
+    }
+    @include sm {
+        font-size: 1.4em
+    }
+    @include xs {
+        font-size: 1.2em;
+    }
     &:hover {
         cursor: pointer;
         transform: scale(1.1);
@@ -102,6 +135,15 @@
     text-align: center;
     font-weight: 500;
     color: $main_color;
+    @include md {
+        font-size: 1.7em;
+    }
+    @include sm {
+        font-size: 1.4em
+    }
+    @include xs {
+        font-size: 1.2em;
+    }
 }
 
 .contact_socialMedia {
@@ -113,12 +155,27 @@
     .social_h3 {
         font-size: 2em;
         margin-bottom: 1.5%;
+        @include lg {
+            font-size: 2em;
+        }
+        @include md {
+            font-size: 1.6em;
+        }
+        @include sm {
+            font-size: 1.4em;
+        }
     }
     .contact_socialMedia-img {
         color: $accent_color;
         transition: all .2s ease;
         font-size: 3em;
         margin: 0 1%;
+        @include md {
+            font-size: 2.6em;
+        }
+        @include sm {
+            font-size: 2.2em;
+        }
           &:hover {
             color: $main_color;
             cursor: pointer;
