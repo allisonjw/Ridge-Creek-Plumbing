@@ -49,6 +49,15 @@
         top: 18%;
         left: 14%;
         text-shadow: 5px 4px 6px #000000b5;
+        @include lg {
+            font-size: 3.5em;
+        }
+        @include md {
+            font-size: 3em;
+        }
+        @include sm {
+            font-size: 2.5em;
+        }    
     }
 }
 
