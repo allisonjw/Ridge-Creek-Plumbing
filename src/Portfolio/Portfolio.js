@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 export const Portfolio = ({ allCats, projectList }) => {
 
     return (
+      <>
         <section className="section_portfolio">
           <Fade left>
           <div className="portfolio_banner" 
@@ -91,11 +92,12 @@ export const Portfolio = ({ allCats, projectList }) => {
                 </Link>
             </li>
           </ul> 
+        </section>
           <section className="portfolio_main">
             {allCats}
             {projectList}
-          </section>     
-        </section>
+          </section> 
+          </>    
     )
 };
 

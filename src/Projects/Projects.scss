@@ -6,7 +6,23 @@
     width: auto;
     margin-left: auto;
     margin-right: auto;
+    animation: bounceIn 2s;
 }
+
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
 .project {
     display: table-cell;
     float: left;
@@ -18,6 +34,11 @@
     border: 2px solid #005798;
     cursor: pointer;
     overflow: hidden;
+    line-height: 2.7;
+    @include sm {
+        width: 345px;
+        height: 230px;
+    }
 }
 
 .project:hover .reveal-top {
@@ -36,6 +57,10 @@
     float: left;
     width: 375px;
     height: 260px;
+    @include sm {
+        width: 345px;
+        height: 230px;
+    }
 }
   
 .reveal-top {
@@ -62,8 +87,11 @@
     height: 100%;
     text-align: center;
     padding: 3%;
+    @include sm {
+        font-size: 1.1em;
+    }
 }
 .project_reveal-h4-location {
-    top: 35px;
+    top: 30px;
 }
 

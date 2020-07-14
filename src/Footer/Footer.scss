@@ -16,11 +16,35 @@ footer {
     width: 20%;
     margin-right: 5%;
     border-radius: 3px;
+    @include xl {
+        margin-right: 9%;
+    }
+    @include lg {
+        width: 17%;
+        margin-right: 6%;
+    }
+    @include md {
+        width: 17%;
+        margin-right: 6%;
+    }
+    @include sm {
+        width: 21%;
+        margin-left: 6%;
+    }
+    @include xs {
+        margin-right: 9%;
+    }
 }
 
 .footer_socialMedia-holder {
     margin: 0 5%;
     align-self: center;
+    @include md {
+        margin: 0 3%;
+    }
+    @include sm {
+        margin: 0 2%;
+    }
 }
 
 .footer_links-holder {
@@ -30,6 +54,12 @@ footer {
     padding: 1% 9%;
     border-right: 1px solid $text_color;
     border-left: 1px solid $text_color;
+    @include md {
+        padding: 1% 7%;
+    }
+    @include sm {
+        padding: 1% 2%;
+    }
 }
 
 .footer_link {
@@ -40,6 +70,18 @@ footer {
     width: 150px;
     margin: 2%;
     text-decoration: none;
+    @include xl {
+        font-size: 2em;
+    }
+    @include lg {
+        font-size: 1.3em;
+    }
+    @include md {
+        font-size: 1em;
+    }
+    @include sm {
+        font-size: 0.8em;
+    }
       &:hover {
         cursor: pointer;
         color: $accent_color;
@@ -50,6 +92,21 @@ footer {
     color: $text_color;
     font-size: 3em;
     margin: 0 1%;
+    @include xl {
+        font-size: 3.5em;
+    }
+    @include lg {
+        font-size: 2.5em;
+    }
+    @include md {
+        font-size: 2em;
+    }
+    @include sm {
+        font-size: 1em;
+    }
+    @include xs {
+        font-size: 0.8em;
+    }
     &:hover {
         cursor: pointer;
         color: $accent_color;
@@ -60,4 +117,16 @@ footer {
     color: $text_color;
     font-size: 2em;
     margin-bottom: 12%;
+    @include xl {
+        font-size: 2.5em;
+    }
+    @include lg {
+        font-size: 1.5em;
+    }
+    @include md {
+        font-size: 1em;
+    }
+    @include sm {
+        font-size: 0.8em;
+    }
 }

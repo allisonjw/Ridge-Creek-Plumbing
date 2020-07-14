@@ -15,6 +15,15 @@
     position: relative;
     border-bottom: 1px solid #000;
     padding-bottom: 1%;
+    @include lg {
+        height: 60vh;
+    }
+    @include md {
+        height: 50vh;
+    } 
+    @include sm {
+        height: 40vh;
+    }   
 }
 
 .services_img {
@@ -24,6 +33,17 @@
     background-attachment: fixed;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    @include lg {
+        height: 60vh;
+    }
+    @include md {
+        height: 50vh;
+        background-attachment: inherit;
+    }  
+    @include sm {
+        height: 40vh;
+        background-attachment: inherit;
+    }  
     .services_banner-h2 {
         position: absolute;
         font-size: 4em;
@@ -31,6 +51,15 @@
         top: 18%;
         left: 14%;
         text-shadow: 5px 4px 6px #000000b5;
+        @include lg {
+            font-size: 3.5em;
+        }
+        @include md {
+            font-size: 3em;
+        }
+        @include sm {
+            font-size: 2.5em;
+        }    
     }
 }
 
@@ -42,6 +71,12 @@
     font-weight: 500;
     margin: 0 5%;
     padding-bottom: 2%;
+    @include sm {
+        font-size: 1.2em
+    }
+    @include xs {
+        font-size: 1.2em;
+    }
     .services_union-link {
         margin-left: 5px;
         text-decoration: none;
@@ -66,6 +101,16 @@
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
+    @include sm {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.responsive_article-style {
+    @include sm {
+        flex-direction: column-reverse;
+    }
 }
 
 .services_img-holder-1,
@@ -73,6 +118,13 @@
 .services_img-holder-3,
 .services_img-holder-4 {
     float: left;
+    @include lg {
+        margin-top: 4%;
+    }
+    @include md {
+        margin-top: 7%;
+    }
+
     // animation: fadeIn 1s ease-out both 0.2s;
 }
 
@@ -83,6 +135,15 @@
     max-width: 50vw;
     box-shadow: 9px 8px 12px 0px #00000085;
     border-radius: 3px;
+    @include lg {
+        max-width: 46vw;
+    }
+    @include md {
+        max-width: 44vw;
+    }
+    @include sm {
+        max-width: 62vw;
+    }
 }
 
 .services_img-holder-1 {
@@ -98,6 +159,20 @@
     text-transform: uppercase;
     color: $accent_color;
     letter-spacing: 2px;
+    @include lg {
+        font-size: 1.6em;
+    }
+    @include md {
+        font-size: 1.5em;
+    }
+    @include sm {
+        font-size: 1.4em;
+        margin: 3% 0;
+    }
+    @include xs {
+        font-size: 1.3em;
+        margin-top: 2% 0;
+    }
 }
 
 .services_description-holder-1,
@@ -105,7 +180,18 @@
 .services_description-holder-3,
 .services_description-holder-4 {
     padding: 5% 0 0 5%;
-    // animation: fadeIn 1s ease-out both 0.2s;
+    @include lg {
+        padding: 4% 0 0 4%; 
+    }
+    @include md {
+        padding: 3% 0 0 3%; 
+    }
+    @include sm {
+        padding: 2% 0 0 2%; 
+    }
+    @include xs {
+        padding: 1% 0 0 1%; 
+    }
 }
 
 .services_paragraph {
