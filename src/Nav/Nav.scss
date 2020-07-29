@@ -66,7 +66,10 @@ h1 {
         font-size: 2.5em;
     }
     @include sm {
-        font-size: 3em;
+        font-size: 2.3em;
+    }
+    @include xs {
+        font-size: 2em;
     }
 }
 
@@ -81,10 +84,13 @@ h1 {
         font-size: 1.8em;
     }
     @include md {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
     @include sm {
-        font-size: 2em;
+        font-size: 1.3em;
+    }
+    @include xs {
+        font-size: 1em;
     }
 }
 
@@ -100,6 +106,9 @@ h1 {
         margin: 0 3%;
         font-weight: 700;
         text-decoration: none;
+        @include xs {
+            font-size: 0.8em;
+        }
           &:hover {
               color: $accent_color;
           }
@@ -162,6 +171,12 @@ a.navlink-is_active {
     }
     @include md {
         font-size: 1.5em;
+    }
+    @include sm {
+        font-size: 1.3em;
+    }
+    @include xs {
+        font-size: 1em;
     }
 }
 
