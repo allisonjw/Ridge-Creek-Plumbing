@@ -1,49 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Categories should match the snapshot if the type is all 1`] = `
-<Fragment>
-  <Portfolio
-    allCats={
-      Array [
-        <Projects
-          id={1}
-          image="puyallup.jpg"
-          location="Puyallup, WA"
-          name="Puyallup School District"
-          project_type="commercial"
-        />,
-        <Projects
-          id={2}
-          image="artisans.jpg"
-          location="South Sound Region"
-          name="The Artisans Group"
-          project_type="commercial"
-        />,
-      ]
-    }
-  />
-</Fragment>
-`;
+exports[`Categories should match the snapshot if the type is all 1`] = `ShallowWrapper {}`;
 
-exports[`Categories should match the snapshot if there is a project type 1`] = `
-<Fragment>
-  <Portfolio
-    projectList={
-      Array [
-        <Projects
-          0="c"
-          1="o"
-          2="m"
-          3="m"
-          4="e"
-          5="r"
-          6="c"
-          7="i"
-          8="a"
-          9="l"
-        />,
-      ]
-    }
-  />
-</Fragment>
-`;
+exports[`Categories should match the snapshot if there is a project type 1`] = `ShallowWrapper {}`;
