@@ -37,25 +37,29 @@ export const Footer = () => {
             <p className="footer_quote">We put our customers first!</p>
             <a href="https://www.facebook.com/ridgecreekplumbing/"
               className="footer_socialMedia-img" 
-              target="_blank" 
+              target="_blank"
+              aria-label="link to Facebook" 
               rel="noopener noreferrer">
               <FaFacebookSquare />
             </a>
             <a href="instagram" 
               className="footer_socialMedia-img" 
               target="_blank" 
+              aria-label="link to Instagram" 
               rel="noopener noreferrer">
               <FaInstagram />
             </a>
             <a href="linkedin"
               className="footer_socialMedia-img"  
               target="_blank" 
+              aria-label="link to LinkedIn" 
               rel="noopener noreferrer">
               <FaLinkedin />
             </a> 
             <a href="twitter"
               className="footer_socialMedia-img"  
               target="_blank" 
+              aria-label="link to Twitter" 
               rel="noopener noreferrer">
               <FaTwitterSquare />
             </a> 

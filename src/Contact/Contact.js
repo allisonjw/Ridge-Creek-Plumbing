@@ -54,24 +54,28 @@ export const Contact = () => {
             <a href="https://www.facebook.com/ridgecreekplumbing/"
               className="contact_socialMedia-img" 
               target="_blank" 
+              aria-label="link to Facebook"
               rel="noopener noreferrer">
               <FaFacebookSquare />
             </a>
             <a href="instagram" 
               className="contact_socialMedia-img" 
               target="_blank" 
+              aria-label="link to Instagram"
               rel="noopener noreferrer">
               <FaInstagram />
             </a>
             <a href="linkedin"
               className="contact_socialMedia-img"  
               target="_blank" 
+              aria-label="link to LinkedIn"
               rel="noopener noreferrer">
               <FaLinkedin />
             </a> 
             <a href="twitter"
               className="contact_socialMedia-img"  
               target="_blank" 
+              aria-label="link to Twitter"
               rel="noopener noreferrer">
               <FaTwitterSquare />
             </a>
