@@ -48,13 +48,13 @@ export const Services = () => {
           </Reveal>
             <aside className="services_description-holder-1">
               <h3 className="services_h3">Plumbing</h3>
-              <p className="services_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p className="services_paragraph">We offer a diverse range of plumbing products for installation in your home. No job is too big or small for our team. Perhaps you don’t like your master bath sink faucet because it’s grimy and fails to match the rest of the décor. We can swap it out for one of your choosing. You can also rely on our plumbers for major plumbing installation jobs like a new water heater or a replacement water line. We’re here for you when you need us.</p>
             </aside>
           </article>
           <article className="services_article responsive_article-style">
             <aside className="services_description-holder-2">
               <h3 className="services_h3">Remodeling</h3>
-              <p className="services_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p className="services_paragraph">Remodeling your house can renew your enjoyment and love for your home. At Ridgecreek, we believe in making the process just as positive as the outcome. Every project we take on exhibits the artistry and quality you demand. Because we manage the job from start to finish, your experience will be both efficient and enjoyable.</p>
             </aside>
           <Reveal effect="pulse">
             <aside className="services_img-holder-2">
@@ -70,7 +70,7 @@ export const Services = () => {
           </Reveal>
             <aside className="services_description-holder-3">
               <h3 className="services_h3">Re-piping</h3>
-              <p className="services_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p className="services_paragraph">If you notice failures in your plumbing system in different areas of the home, or it seems as though you’re constantly on the phone with the plumber to repair your piping, then re-piping may be your best bet. When you work with our expert plumbers, we can give you all the information and advice you need to make an informed decision.</p>
             </aside>
           </article>
           <article className="services_article responsive_article-style">
