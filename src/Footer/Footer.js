@@ -33,6 +33,7 @@ export const Footer = () => {
                Contact
            </Link>  
           </div>
+            {/* ******* needs active SM accounts from client****** */}            
           <div className="footer_socialMedia-holder">
             <p className="footer_quote">We put our customers first!</p>
             <a href="https://www.facebook.com/ridgecreekplumbing/"
