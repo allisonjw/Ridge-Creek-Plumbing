@@ -48,6 +48,8 @@ export const Contact = () => {
             </a>
           </div>
         </section>
+  {/* ******* needs active SM accounts from client****** */}
+  
         <section className="contact_socialMedia">
           <h3 className="social_h3">Contact Us On Social Media</h3>
           <div className="contact_media-holder" aria-label="container for all social media links">
@@ -80,6 +82,11 @@ export const Contact = () => {
               <FaTwitterSquare />
             </a>
           </div>   
+        </section>
+        <section className="contact_licenses">
+          <h3 className="licenses_h3">Licenses and Certifications</h3>
+            <p className="license_p">General Contractor License, <strong>RIDGEPL918KD</strong> (State of Washington)</p>
+            <p className="license_p">Journeyman Plumbing License, <strong>MAGARG*924LT</strong> (State of Washington)</p>
         </section>
       </section>
     )
