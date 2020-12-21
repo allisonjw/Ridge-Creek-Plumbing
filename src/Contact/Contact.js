@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.scss';
 import contactImage from '../images/boots_gloves.jpeg';
-import { FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaInstagram } from "react-icons/fa";
+import { FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaInstagram, FaYelp } from "react-icons/fa";
 import Fade from 'react-reveal/Fade';
 
 export const Contact = () => {
@@ -60,7 +60,14 @@ export const Contact = () => {
               rel="noopener noreferrer">
               <FaFacebookSquare />
             </a>
-            <a href="instagram" 
+            <a href="https://www.yelp.com/biz/ridgecreek-plumbing-llc-olympia"
+              className="contact_socialMedia-img" 
+              target="_blank" 
+              aria-label="link to Yelp"
+              rel="noopener noreferrer">
+              <FaYelp/>
+            </a>
+            {/* <a href="instagram" 
               className="contact_socialMedia-img" 
               target="_blank" 
               aria-label="link to Instagram"
@@ -80,7 +87,7 @@ export const Contact = () => {
               aria-label="link to Twitter"
               rel="noopener noreferrer">
               <FaTwitterSquare />
-            </a>
+            </a> */}
           </div>   
         </section>
         <section className="contact_licenses">

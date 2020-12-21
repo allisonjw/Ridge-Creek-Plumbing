@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaInstagram } from "react-icons/fa";
+import { FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaInstagram, FaYelp } from "react-icons/fa";
 import './Footer.scss';
 
 export const Footer = () => {
@@ -43,7 +43,14 @@ export const Footer = () => {
               rel="noopener noreferrer">
               <FaFacebookSquare />
             </a>
-            <a href="instagram" 
+            <a href="https://www.yelp.com/biz/ridgecreek-plumbing-llc-olympia"
+              className="footer_socialMedia-img" 
+              target="_blank"
+              aria-label="link to Yelp" 
+              rel="noopener noreferrer">
+              <FaYelp />
+            </a>
+            {/* <a href="instagram" 
               className="footer_socialMedia-img" 
               target="_blank" 
               aria-label="link to Instagram" 
@@ -63,7 +70,7 @@ export const Footer = () => {
               aria-label="link to Twitter" 
               rel="noopener noreferrer">
               <FaTwitterSquare />
-            </a> 
+            </a>  */}
           </div>
       </footer>
     )
