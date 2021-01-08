@@ -30,7 +30,7 @@ export const Contact = () => {
           <div className="email_div" aria-label="container for contact email">
             <h3 className="contact_h3">EMAIL</h3>
             <a    
-              href="mailto:Ridgecreekplumbingllc@gmail.com" 
+              href="mailto:garthm@ridgeplumbing.com" 
               target="_blank" 
               className="contact_link"
               aria-label="email address"
@@ -67,21 +67,21 @@ export const Contact = () => {
               rel="noopener noreferrer">
               <FaYelp/>
             </a>
-            {/* <a href="instagram" 
+            <a href="https://www.instagram.com/ridgecreek_plumbing/" 
               className="contact_socialMedia-img" 
               target="_blank" 
               aria-label="link to Instagram"
               rel="noopener noreferrer">
               <FaInstagram />
             </a>
-            <a href="linkedin"
+            {/* <a href="linkedin"
               className="contact_socialMedia-img"  
               target="_blank" 
               aria-label="link to LinkedIn"
               rel="noopener noreferrer">
               <FaLinkedin />
-            </a> 
-            <a href="twitter"
+            </a>  */}
+            {/* <a href="twitter"
               className="contact_socialMedia-img"  
               target="_blank" 
               aria-label="link to Twitter"

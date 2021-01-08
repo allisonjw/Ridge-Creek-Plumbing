@@ -71,6 +71,9 @@
     font-weight: 500;
     margin: 0 5%;
     padding-bottom: 2%;
+    @include xl {
+        font-size: 2em;
+    }
     @include sm {
         font-size: 1.2em
     }
@@ -135,6 +138,9 @@
     max-width: 50vw;
     box-shadow: 9px 8px 12px 0px #00000085;
     border-radius: 3px;
+    @include xl {
+        width: 40vw;
+    }
     @include lg {
         max-width: 46vw;
     }
@@ -159,6 +165,9 @@
     text-transform: uppercase;
     color: $accent_color;
     letter-spacing: 2px;
+    @include xl {
+        font-size: 3em;
+    }
     @include lg {
         font-size: 1.6em;
     }
@@ -199,6 +208,9 @@
     line-height: 1.4;
     font-weight: 500;
     color: $main_color;
+    @include xl {
+        font-size: 2em;
+    }
 }
 
 @keyframes fadeIn {

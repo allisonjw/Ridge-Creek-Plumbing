@@ -50,21 +50,21 @@ export const Footer = () => {
               rel="noopener noreferrer">
               <FaYelp />
             </a>
-            {/* <a href="instagram" 
+            <a href="https://www.instagram.com/ridgecreek_plumbing/" 
               className="footer_socialMedia-img" 
               target="_blank" 
               aria-label="link to Instagram" 
               rel="noopener noreferrer">
               <FaInstagram />
             </a>
-            <a href="linkedin"
+            {/* <a href="linkedin"
               className="footer_socialMedia-img"  
               target="_blank" 
               aria-label="link to LinkedIn" 
               rel="noopener noreferrer">
               <FaLinkedin />
-            </a> 
-            <a href="twitter"
+            </a>  */}
+            {/* <a href="twitter"
               className="footer_socialMedia-img"  
               target="_blank" 
               aria-label="link to Twitter" 

@@ -9,7 +9,7 @@ export const allProjects = {
         },
         {
             id: 2,
-            project_type: 'commercial',
+            project_type: 'residential',
             name: 'The Artisans Group',
             location: 'South Sound Region',
             image: require('../images/artisans.jpg'),
@@ -36,20 +36,6 @@ export const allProjects = {
             image: require('../images/7-eleven.png'),
         },
         {
-            id: 6,
-            project_type: 'commercial',
-            name: 'Cedar Crest Homes',
-            location: 'Olympia, WA',
-            image: require('../images/cedar_crest.jpg'),
-        },
-        {
-            id: 7,
-            project_type: 'commercial',
-            name: 'Naval Hospital',
-            location: 'Bremerton, WA',
-            image: require('../images/NHBhomepage.png'),
-        },
-        {
             id: 8,
             project_type: 'commercial',
             name: ' South Puget Sound Community College',
@@ -73,9 +59,9 @@ export const allProjects = {
         {
             id: 11,
             project_type: 'commercial',
-            name: 'Harrison Medical Center',
-            location: 'Port Orchard, WA',
-            image: require('../images/harrison.jpeg'),
+            name: 'Generations Building - Quinault Indian Nation',
+            location: 'Taholah, WA',
+            image: require('../images/quinault.webp'),
         }
     ],
     residential: [
