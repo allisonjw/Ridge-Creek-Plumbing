@@ -8,11 +8,17 @@ header {
     -webkit-transition: all .8s linear;
     transition: all .8s linear;
     padding-bottom: 11%;
+    @include xlish {
+        padding-bottom: 27%;
+    }
+    @include lgish {
+        padding-bottom: 28%;
+    }
     @include lg {
-        padding-bottom: 14%;
+        padding-bottom: 27%;
     }
     @include md {
-        padding-bottom: 18%;
+        padding-bottom: 22%;
     }
     @include sm {
         padding-bottom: 0%;
@@ -32,10 +38,15 @@ header {
     float: left;
     padding: 3%;
     @include xl {
-        padding: 5%;
+        padding: 2%;
+    }
+    @include lgish {
+        padding: 3% 1% 1%;
+        width: 57%;
     }
     @include lg {
         padding: 1%;
+        width: 40%
     }
     @include md {
         padding: 1%;
@@ -55,6 +66,36 @@ header {
     }
 }
 
+.logo-img {
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+    border-radius: 3px;
+    @include xl {
+        width: 30%;
+    }
+    @include lg {
+        width: 17%;
+        height: 17%;
+        margin-right: 6%;
+    }
+    @include md {
+        width: 17%;
+        height: 17%;
+        margin-right: 6%;
+    }
+    @include sm {
+        width: 21%;
+        height: 21%;
+        margin-left: 6%;
+    }
+    @include xs {
+        margin: 2%;
+        width: 35%;
+    }
+}
+
+
 h1 {
     font-size: 3.5em;
     color: #f48024;
@@ -66,28 +107,31 @@ h1 {
         font-size: 2.5em;
     }
     @include sm {
-        font-size: 2.3em;
+        font-size: 3em;
     }
     @include xs {
         font-size: 2em;
+        margin-top: 8%;
     }
 }
 
 .nav_h2 {
-    text-align: center;
+    // text-align: center;
     font-size: 1.8em;
     @include xl {
-        font-size: 2.2em;
+        font-size: 2em;
         text-align: justify;
     }
     @include lg {
         font-size: 1.8em;
+        float: left;
     }
     @include md {
         font-size: 1.5em;
     }
     @include sm {
-        font-size: 1.3em;
+        font-size: 2em;
+        float: left;
     }
     @include xs {
         font-size: 1em;
@@ -123,15 +167,18 @@ h1 {
 
 nav {
     float: right;
-    margin: 5%;
+    margin-right: 5%;
     @include xl {
-        margin: 3%;
+        margin-right: 5%;
     }
     @include lg {
-        margin: 3%;
+        margin-right: 4%;
+    }
+    @include lgish {
+        margin: 0 5%;
     }
     @include md {
-        margin: 3%;
+        margin-right: 5%;
     }
 }
 
@@ -151,6 +198,18 @@ nav {
         &:hover {
             transform: scale(1.1);
         }
+    }
+    @include xl {
+        margin-top: 7%;
+    }
+    @include lgish {
+        margin: 0;
+    }
+    @include lg {
+        margin: auto;
+    }
+    @include sm {
+        margin: auto;
     }
     @include md {
         margin: 0 0 0 12px;

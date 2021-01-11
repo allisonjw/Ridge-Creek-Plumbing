@@ -24,6 +24,7 @@ export const Nav = () => {
             </a>
           </div>
         <div className="header_logo" aria-label="business logo">
+        <img className="logo-img" alt="ridge creek plumbing logo" src={require('../images/logo-black.png')}></img>
           <h1>Ridgecreek</h1>
           <h2 className="nav_h2"><span className="nav_img"><AiFillTool/></span>Plumbing | Gas<span className="nav_img"><IoIosFlame/></span></h2>
         </div>

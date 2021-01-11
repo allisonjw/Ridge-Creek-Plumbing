@@ -8,13 +8,6 @@ export const allProjects = {
             image: require('../images/puyallup.jpg'),
         },
         {
-            id: 2,
-            project_type: 'residential',
-            name: 'The Artisans Group',
-            location: 'South Sound Region',
-            image: require('../images/artisans.jpg'),
-        },
-        {
             id: 3,
             project_type: 'commercial',
             name: 'Les Schwab Tire Center',
@@ -65,6 +58,13 @@ export const allProjects = {
         }
     ],
     residential: [
+        {
+            id: 2,
+            project_type: 'residential',
+            name: 'The Artisans Group',
+            location: 'South Sound Region',
+            image: require('../images/artisans.jpg'),
+        },
         {
             id: 12,
             project_type: 'residential',
