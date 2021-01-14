@@ -15,12 +15,12 @@ export const Nav = () => {
               360.485.6605
             </a>
             <a    
-              href="mailto:garthm@ridgeplumbing.com" 
+              href="mailto:Garthm@ridgecreekplumbing.com" 
               target="_blank" 
               className="nav_banner-link"
               aria-label="email address"
               rel="noopener noreferrer">
-              garthm@ridgeplumbing.com
+              Garthm@ridgecreekplumbing.com
             </a>
           </div>
         <div className="header_logo" aria-label="business logo">

@@ -30,12 +30,12 @@ export const Contact = () => {
           <div className="email_div" aria-label="container for contact email">
             <h3 className="contact_h3">EMAIL</h3>
             <a    
-              href="mailto:garthm@ridgeplumbing.com" 
+              href="mailto:Garthm@ridgecreekplumbing.com" 
               target="_blank" 
               className="contact_link"
               aria-label="email address"
               rel="noopener noreferrer">
-              Ridgecreekplumbingllc@gmail.com
+              Garthm@ridgecreekplumbing.com
             </a>
           </div>
           <div className="phone_div" aria-label="container for contact telephone number">
