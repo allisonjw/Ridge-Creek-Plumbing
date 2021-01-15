@@ -35,6 +35,7 @@
     background-repeat: no-repeat;
     @include lg {
         height: 60vh;
+        background-attachment: inherit;
     }
     @include md {
         height: 50vh;
