@@ -38,9 +38,11 @@
     }
     @include md {
         height: 50vh;
+        background-attachment: inherit;
     }  
     @include sm {
         height: 40vh;
+        background-attachment: inherit;
     }  
     .contact_banner-h2 {
         position: absolute;
