@@ -22,19 +22,6 @@
     } 
 }
 
-@mixin lgish {
-    @media (max-width: #{$screen-lgish-min}){
-        @content;
-    }
-}
-
-@mixin xlish {
-    @media (max-width: #{$screen-xlish-min}){
-        @content;
-    }
-}
-
-
 @mixin xl { 
     @media (min-width: #{$screen-xl-min}) {
         @content;

@@ -24,11 +24,11 @@ export const Nav = () => {
             </a>
           </div>
         <div className="header_logo" aria-label="business logo">
-        <img className="logo-img" alt="ridge creek plumbing logo" src={require('../images/logo-black.png')}></img>
+        <img className="nav_logo-img" alt="ridge creek plumbing logo" src={require('../images/logo-black.png')}></img>
           <h1>Ridgecreek</h1>
           <h2 className="nav_h2"><span className="nav_img"><AiFillTool/></span>Plumbing | Gas<span className="nav_img"><IoIosFlame/></span></h2>
         </div>
-        <nav role="navigation" aria-label="main navigation">
+        <nav className="div_nav" role="navigation" aria-label="main navigation">
           <ul className="all_navbar_links">
             <li className="navbar_item">
                 <NavLink 

@@ -31,16 +31,16 @@
     background-attachment: fixed;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    @include xl {
+    }
     @include lg {
         height: 60vh;
     }
     @include md {
         height: 50vh;
-        background-attachment: inherit;
     }  
     @include sm {
         height: 40vh;
-        background-attachment: inherit;
     }  
     .portfolio_banner-h2 {
         position: absolute;

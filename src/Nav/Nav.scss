@@ -8,17 +8,14 @@ header {
     -webkit-transition: all .8s linear;
     transition: all .8s linear;
     padding-bottom: 11%;
-    @include xlish {
-        padding-bottom: 27%;
-    }
-    @include lgish {
-        padding-bottom: 28%;
+    @include xl {
+        // padding-bottom: 22%;
     }
     @include lg {
-        padding-bottom: 27%;
+        // padding-bottom: 24%;
     }
     @include md {
-        padding-bottom: 22%;
+        // padding-bottom: 24%;
     }
     @include sm {
         padding-bottom: 0%;
@@ -35,54 +32,52 @@ header {
 }
 
 .header_logo {
-    float: left;
     padding: 3%;
     @include xl {
-        padding: 2%;
-    }
-    @include lgish {
-        padding: 3% 1% 1%;
-        width: 57%;
+        padding: 0.5%;
+        float: none;
     }
     @include lg {
         padding: 1%;
-        width: 40%
+        float: none;
     }
     @include md {
         padding: 1%;
     }
+    @include sm {
+        padding: 1%;
+    }
     @include xs {
-        padding: 0.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .nav_img {
         margin-top: 5px;
     }
     @include xl {
         padding: 2%;
-        width: 26%;
     }
     @include lg {
         padding: 1%;
     }
 }
 
-.logo-img {
-    width: 30%;
+.nav_logo-img {
+    max-width: 20%;
     float: left;
     margin-right: 2%;
     border-radius: 3px;
     @include xl {
-        width: 30%;
+        max-width: 17%;
     }
     @include lg {
-        width: 17%;
-        height: 17%;
-        margin-right: 6%;
+        width: 16%;
+        margin-right: 1%;
     }
     @include md {
-        width: 17%;
-        height: 17%;
-        margin-right: 6%;
+        width: 15%;
+        margin-right: 1%;
     }
     @include sm {
         width: 21%;
@@ -90,7 +85,6 @@ header {
         margin-left: 6%;
     }
     @include xs {
-        margin: 2%;
         width: 35%;
     }
 }
@@ -111,12 +105,11 @@ h1 {
     }
     @include xs {
         font-size: 2em;
-        margin-top: 8%;
+        margin-top: 3%;
     }
 }
 
 .nav_h2 {
-    // text-align: center;
     font-size: 1.8em;
     @include xl {
         font-size: 2em;
@@ -130,8 +123,7 @@ h1 {
         font-size: 1.5em;
     }
     @include sm {
-        font-size: 2em;
-        float: left;
+        font-size: 1.3em;
     }
     @include xs {
         font-size: 1em;
@@ -165,20 +157,17 @@ h1 {
     }
 }
 
-nav {
+.div_nav {
     float: right;
-    margin-right: 5%;
+    margin-right: 1%;
     @include xl {
-        margin-right: 5%;
+        // margin-right: 5%;
     }
     @include lg {
-        margin-right: 4%;
-    }
-    @include lgish {
-        margin: 0 5%;
+        // margin-right: 4%;
     }
     @include md {
-        margin-right: 5%;
+        // margin-right: 5%;
     }
 }
 
@@ -201,9 +190,6 @@ nav {
     }
     @include xl {
         margin-top: 7%;
-    }
-    @include lgish {
-        margin: 0;
     }
     @include lg {
         margin: auto;
