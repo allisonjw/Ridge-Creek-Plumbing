@@ -1,33 +1,43 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useLayoutEffect } from 'react';
+import { useLocation, Link } from 'react-router-dom';
 import { FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaInstagram, FaYelp } from "react-icons/fa";
 import './Footer.scss';
 
 export const Footer = () => {
+  const location = useLocation();
+  // Scroll to top if path changes
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+  
     return (
       <footer>
           <img className="logo-img" alt="ridge creek plumbing logo" src={require('../images/logo-white.png')}></img>
           <div className="footer_links-holder">
            <Link 
-             to="/"       
+             to="/"
+             href="/#about_home"       
              className="footer_link"
            >
                About
            </Link>  
            <Link 
              to="/portfolio"
+             id="portfolio_home"       
              className="footer_link"
            >
                Portfolio
            </Link>  
            <Link 
              to="/services"
+             id="services_home"       
              className="footer_link"
            >
                Services
            </Link>  
            <Link 
              to="/contact"
+             id="contact_home"       
              className="footer_link"
            >
                Contact
