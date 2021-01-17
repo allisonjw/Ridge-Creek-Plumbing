@@ -327,7 +327,7 @@ main {
         font-size: 1.2em;
     }
     @include sm {
-        font-size: 1em
+        font-size: 1.2em
     }
     @include xs {
         font-size: 0.9em;
@@ -375,12 +375,13 @@ main {
         left: 15em;
     }
     @include md {
-        left: 10em
+        left: 10em;
     }
     @include sm {
         left: 0em;
         display: block;
-        margin: auto;    
+        margin: auto; 
+        height: 305px;   
     }
     @include xs {
         width: 280px;
@@ -415,6 +416,9 @@ main {
 	width: 1760px;
 	height: 400px;
     position: relative;
+    @include sm {
+        height: 297px;
+    }
     @include xs {
         width: 1860px;
         height: 270px;
