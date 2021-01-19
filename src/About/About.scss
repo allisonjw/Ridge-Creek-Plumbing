@@ -31,6 +31,9 @@ main {
     @include sm {
         height: 40vh;
     }
+    @include xs {
+        height: 30vh;
+    }    
     .banner_figure {
       position: absolute;
       width: 100%;
@@ -45,6 +48,9 @@ main {
         @include sm {
             height: 40vh;
         }
+        @include xs {
+            height: 30vh;
+        }    
         &:nth-child(1) {
             -webkit-animation: xfade 16s 12s infinite;
             -moz-animation: xfade 16s 12s infinite;;
@@ -57,7 +63,10 @@ main {
           } 
           @include sm {
               height: 40vh;
-          }   
+          }
+          @include xs {
+            height: 30vh;
+          }       
         }
         &:nth-child(2) {
             -webkit-animation: xfade 16s 8s infinite;
@@ -71,7 +80,10 @@ main {
           } 
           @include sm {
               height: 40vh;
-          }   
+          }
+          @include xs {
+            height: 30vh;
+          }       
         }
         &:nth-child(3) {
             -webkit-animation: xfade 16s 4s infinite;
@@ -85,7 +97,10 @@ main {
           } 
           @include sm {
               height: 40vh;
-          }   
+          }
+          @include xs {
+            height: 30vh;
+          }       
         }
         &:nth-child(4) {
             -webkit-animation: xfade 16s 0s infinite;
@@ -99,7 +114,10 @@ main {
           } 
           @include sm {
               height: 40vh;
-          }   
+          }
+          @include xs {
+            height: 30vh;
+          }       
         }
         .about_img {
             width: 100%;
@@ -123,7 +141,10 @@ main {
             @include sm {
                 height: 40vh;
                 background-attachment: inherit;
-            }  
+            }
+            @include xs {
+                height: 30vh;
+            }          
         }
         figcaption {
           position: absolute;

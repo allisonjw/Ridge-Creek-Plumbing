@@ -21,7 +21,10 @@
     } 
     @include sm {
         height: 40vh;
-    }   
+    } 
+    @include xs {
+        height: 30vh;
+    }      
 }
 
 .portfolio_img {
@@ -45,7 +48,10 @@
     @include sm {
         height: 40vh;
         background-attachment: inherit;
-    }  
+    }
+    @include xs {
+        height: 30vh;
+    }      
     .portfolio_banner-h2 {
         position: absolute;
         font-size: 4em;
