@@ -164,12 +164,20 @@ main {
     @include md {
     }
     @include sm {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;    
         flex-direction: column;
+        -webkit-align-items: center;
+        -moz-align-items: center;
         align-items: center;
         padding: 5% 1%;
     }
     @include xs {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;    
         flex-direction: column;
+        -webkit-align-items: center;
+        -moz-align-items: center;
         align-items: center;
         padding: 5% 1%;
     }
@@ -177,9 +185,13 @@ main {
 
 .section_about-history {
     @include sm {
+        -webkit-flex-direction: column-reverse;
+        -moz-flex-direction: column-reverse;    
         flex-direction: column-reverse;
     }
     @include xs {
+        -webkit-flex-direction: column-reverse;
+        -moz-flex-direction: column-reverse;    
         flex-direction: column-reverse;
     }
 }
