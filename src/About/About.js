@@ -4,13 +4,11 @@ import PNW from '../images/PNW_1.jpeg';
 import commercial from '../images/commercial_plumbing.jpeg';
 import boots from '../images/boots.jpeg';
 import plumbing from '../images/plumbing_1.jpeg';
-import Fade from 'react-reveal/Fade';
 import Reveal from 'react-reveal/Reveal'
 
 export const About = () => {
     return (
       <main>
-        <a id="about_home"></a>
         <div className="about_banner" aria-label="slideshow of images">
           <figure className="banner_figure">
             <div className="about_img" style={{ backgroundImage:`url(${PNW})` }}> 
