@@ -46,8 +46,9 @@ main {
             height: 40vh;
         }
         &:nth-child(1) {
-          animation: xfade 16s 12s infinite;
-          -webkit-animation: xfade 16s 12s infinite;
+            -webkit-animation: xfade 16s 12s infinite;
+            -moz-animation: xfade 16s 12s infinite;;
+            animation: xfade 16s 12s infinite;
           @include lg {
               height: 60vh;
           }
@@ -59,8 +60,9 @@ main {
           }   
         }
         &:nth-child(2) {
-          animation: xfade 16s 8s infinite;
-          -webkit-animation: xfade 16s 8s infinite;
+            -webkit-animation: xfade 16s 8s infinite;
+            -moz-animation: xfade 16s 8s infinite;
+            animation: xfade 16s 8s infinite;
           @include lg {
               height: 60vh;
           }
@@ -72,8 +74,9 @@ main {
           }   
         }
         &:nth-child(3) {
-          animation: xfade 16s 4s infinite;
-          -webkit-animation: xfade 16s 4s infinite;
+            -webkit-animation: xfade 16s 4s infinite;
+            -moz-animation: xfade 16s 4s infinite;
+            animation: xfade 16s 4s infinite;
           @include lg {
               height: 60vh;
           }
@@ -85,8 +88,9 @@ main {
           }   
         }
         &:nth-child(4) {
-          animation: xfade 16s 0s infinite;
-          -webkit-animation: xfade 16s 0s infinite;
+            -webkit-animation: xfade 16s 0s infinite;
+            -moz-animation: xfade 16s 0s infinite;
+            animation: xfade 16s 0s infinite;
           @include lg {
               height: 60vh;
           }
@@ -100,8 +104,9 @@ main {
         .about_img {
             width: 100%;
             height: 70vh;
-            background-size: cover;
             -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
             background-attachment: fixed;
             background-position: 50% 50%;
             background-repeat: no-repeat;
@@ -161,10 +166,12 @@ main {
     @include sm {
         flex-direction: column;
         align-items: center;
+        padding: 5% 1%;
     }
     @include xs {
         flex-direction: column;
         align-items: center;
+        padding: 5% 1%;
     }
 }
 
@@ -187,12 +194,12 @@ main {
     @include md {
         padding: 0 2% 0 2%; 
     }
-    @include sm {
-        padding: 0 2% 0 2%; 
-    }
-    @include xs {
-        padding: 0 1% 0 1%; 
-    }
+    // @include sm {
+    //     padding: 0 2% 0 2%; 
+    // }
+    // @include xs {
+    //     padding: 0 1% 0 1%; 
+    // }
 }    
 
 .about_h2,
@@ -253,7 +260,7 @@ main {
     }
     @include sm {
         width: 100%;
-        margin: 2% 2% 2%;
+        margin: 2%;
     }
 }
 
@@ -269,7 +276,7 @@ main {
     }
     @include sm {
         width: 100%;
-        margin: 2% 2% 2%;
+        margin: 2%;
     }
 }
 

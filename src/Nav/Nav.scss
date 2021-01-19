@@ -20,18 +20,22 @@ header {
     @include sm {
         padding-bottom: 0%;
         display: flex;
-        flex-direction: column;
         -webkit-flex-direction: column;
-        align-items: center;
+        -moz-flex-direction: column;
+        flex-direction: column;
         -webkit-align-items: center;
+        -moz-align-items: center;
+        align-items: center;
     }
     @include xs {
         padding-bottom: 0%;
         display: flex;
-        flex-direction: column;
         -webkit-flex-direction: column;
-        align-items: center;
+        -moz-flex-direction: column;
+        flex-direction: column;
         -webkit-align-items: center;
+        -moz-align-items: center;
+        align-items: center;
     }
 }
 
@@ -53,10 +57,12 @@ header {
     }
     @include xs {
         display: flex;
-        flex-direction: column;
         -webkit-flex-direction: column;
-        align-items: center;
+        -moz-flex-direction: column;
+        flex-direction: column;
         -webkit-align-items: center;
+        -moz-align-items: center;
+        align-items: center;
     }
     .nav_img {
         margin-top: 5px;
@@ -140,12 +146,15 @@ h1 {
     background-color: $main_color;
     height: 46px;
     display: flex;
-    flex-direction: row;
     -webkit-flex-direction: row;
-    flex-wrap: wrap;
+    -moz-flex-direction: row;
+    flex-direction: row;
     -webkit-flex-wrap: wrap;
-    align-items: center;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
     .nav_banner-link {
         color: white;
         margin: 0 3%;
