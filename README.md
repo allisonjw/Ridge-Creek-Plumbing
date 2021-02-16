@@ -2,4 +2,4 @@
 
 ## Contracted Website Developer | Allison Wagner
 
-This site is a work in progress. Please view the temporary deployment at https://ridge-creek-plumbing.vercel.app/
+This is a custom site built in React, SCSS with CSS animations. To [click](http://ridgecreekplumbing.com/) her to view the site. 
